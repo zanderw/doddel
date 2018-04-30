@@ -14,9 +14,9 @@ module.exports = {
             resolve: `gatsby-source-airtable`,
             options: {
                 apiKey: `key0snq8sdZUavtSO`,
-                baseId: `appHa6Jz2dKTD7cGK`,
-                tableName: `CMS`,
-                tableView: `published`,
+                baseId: `appEI2RhdstQljbIr`,
+                tableName: `Swimming`,
+                tableView: `Grid view`,
             }
         }
     ],

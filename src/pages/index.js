@@ -22,8 +22,8 @@ const centerBlock = {
 };
 
 const selectBlock = {
-    height: "110px",
-    width: "110px",
+    height: "90px",
+    width: "90px",
     borderRadius: "10px",
     margin: "0 auto",
     background: "#FFC20D"
@@ -40,7 +40,7 @@ const IndexPage = () => (
             </Col>
         </Row>
         <Row style={heroBlock}>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -49,7 +49,7 @@ const IndexPage = () => (
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -58,7 +58,7 @@ const IndexPage = () => (
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -67,35 +67,25 @@ const IndexPage = () => (
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
-                <p>Popular</p>
-                <span>sdfbaof</span>
-            </Col>
-        </Row>
-        <Row style={heroBlock}>
-            <Col xs="6" md="3" lg="3">
-                <p>Popular</p>
-                <span>sdfbaof</span>
-            </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
                         </div>
-                        <p>Gear</p>
+                        <p>Races</p>
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
                         </div>
-                        <p>Nutrition</p>
+                        <p>Races</p>
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -106,7 +96,7 @@ const IndexPage = () => (
             </Col>
         </Row>
         <Row style={heroBlock}>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -115,7 +105,7 @@ const IndexPage = () => (
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -124,7 +114,7 @@ const IndexPage = () => (
                     </Link>
                 </div>
             </Col>
-            <Col xs="6" md="3" lg="3">
+            <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
                     <Link >
                         <div style={selectBlock}>
@@ -132,10 +122,6 @@ const IndexPage = () => (
                         <p>Races</p>
                     </Link>
                 </div>
-            </Col>
-            <Col xs="6" md="3" lg="3">
-                <p>Popular</p>
-                <span>sdfbaof</span>
             </Col>
         </Row>
     </Container>

@@ -91,7 +91,6 @@ export default class Example extends React.Component {
                 <div style={titleBlock}>
                         <p style={titleTag}>Gear</p>
                 </div>
-
                 <Nav tabs style={tabsBlock}>
                     <NavItem>
                         <NavLink
