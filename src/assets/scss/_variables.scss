@@ -15,7 +15,7 @@ $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
+$gray-600: rgba(51,51,51,0.3) !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
@@ -750,8 +750,8 @@ $popover-arrow-outer-color:         fade-in($popover-border-color, .05) !default
 
 // Badges
 
-$badge-font-size:                   75% !default;
-$badge-font-weight:                 $font-weight-bold !default;
+$badge-font-size:                   10px !default;
+$badge-font-weight:                 $font-weight-normal !default;
 $badge-padding-y:                   .25em !default;
 $badge-padding-x:                   .4em !default;
 $badge-border-radius:               $border-radius !default;

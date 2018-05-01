@@ -32,7 +32,7 @@ export default class ReactNavbar extends React.Component {
   }
   render() {
     return <div >
-        <Navbar color="light" light expand="md">
+        <Navbar color="light" light expand="xs">
           <Link to="/">
             <NavbarBrand>
               <img style={logo} src={waddlLogo}/> {' '}
@@ -43,7 +43,7 @@ export default class ReactNavbar extends React.Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <Link to="/research">
-                  <Button color="primary">Share with friends</Button>
+                  <Button color="primary" size="sm">Share with friends</Button>
                 </Link>
               </NavItem>
             </Nav>
