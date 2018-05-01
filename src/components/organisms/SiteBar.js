@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import waddlLogo from '../assets/images/waddl_logo.png'
+import waddlLogo from '../../assets/images/waddl_logo.png'
 
 import {
   Collapse,
@@ -26,6 +26,8 @@ const logo = {
 export default class ReactNavbar extends React.Component {
   constructor(props) {
     super(props);
+
+      const pageType = props.pageType;
     this.state = {
       fixed: true
     }

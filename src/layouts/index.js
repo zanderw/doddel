@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import theme from '../components/theme'
 
-import ReactNavbar from '../components/ReactNavbar'
-import SideBar from '../components/SideBar'
+import ReactNavbar from '../components/organisms/SiteBar'
+import SideBar from '../components/organisms/SideBar'
 
 import '../assets/scss/bootstrap.scss'
 
@@ -18,18 +18,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <ReactNavbar />
-    <SideBar />
-    <div
-      style={{
-        marginLeft: '200px',
-        boxShadow: '0 0 0 1px rgba(0,0,0,.05), 0 4px 24px 2px rgba(0,0,0,.1)'
-      }}
-    >
       <ThemeProvider theme={theme}>
         {children()}
       </ThemeProvider>
-    </div>
   </div>
 )
 

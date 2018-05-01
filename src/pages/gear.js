@@ -19,6 +19,9 @@ import {
 } from 'reactstrap';
 import classnames from 'classnames';
 
+import { Template } from '../components';
+
+
 const titleBlock = {
     background: '#FA4DAA',
     marginLeft: '0',
@@ -87,6 +90,7 @@ export default class Example extends React.Component {
 
     render() {
         return (
+            <Template pageType = "gear">
             <div>
                 <div style={titleBlock}>
                         <p style={titleTag}>Gear</p>
@@ -177,6 +181,7 @@ export default class Example extends React.Component {
                     </TabPane>
                 </TabContent>
             </div>
+            </Template>
         );
     }
 }

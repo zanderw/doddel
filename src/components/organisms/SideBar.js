@@ -35,19 +35,31 @@ const sideItem = {
     color: '#333',
 };
 
+const sideItemActive = {
+    fontWeight: "500px",
+    border: "none",
+    background: "none",
+    fontSize: "14px",
+    paddingTop: "5px",
+    paddingBottom: "5px",
+    paddingLeft: "20px",
+
+};
+
 
 
 export default class SideBar extends React.Component {
     constructor(props) {
         super(props);
+        const pageType = props.pageType;
     }
     render() {
         return <div style={sideNav} >
             <p style={sideLabel}>POPULAR</p>
             <ListGroup>
-                <ListGroupItem style={sideItem} tag="a" href="/gear">Gear</ListGroupItem>
-                <ListGroupItem style={sideItem} tag="a" href="/nutrition">Nutrition</ListGroupItem>
-                <ListGroupItem style={sideItem} tag="a" href="/races">Races</ListGroupItem>
+                <ListGroupItem tag="a" href="/gear" style={this.props.pageType === 'gear' ? sideItemActive : sideItem}>Gear</ListGroupItem>
+                <ListGroupItem tag="a" href="/nutrition" style={this.props.pageType === 'nutrition' ? sideItemActive : sideItem} >Nutrition</ListGroupItem>
+                <ListGroupItem tag="a" href="/races" style={this.props.pageType === 'races' ? sideItemActive : sideItem}>Races</ListGroupItem>
             </ListGroup>
             <hr />
             <p style={sideLabel}>LEARNING</p>

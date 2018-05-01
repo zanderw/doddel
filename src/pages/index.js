@@ -14,6 +14,8 @@ import {
     Badge,
 } from 'reactstrap'
 
+import { Template } from '../components';
+
 const headerBlock = {
     textAlign: 'center',
     margin: '0 auto',
@@ -57,6 +59,7 @@ const centerBlock = {
 
 
 const IndexPage = () => (
+    <Template pageType = "home">
     <Container>
         <Row style={headerBlock}>
             <Col sm="12" md={{size: 8, offset: 2}}>
@@ -167,6 +170,7 @@ const IndexPage = () => (
             </Col>
         </Row>
     </Container>
+    </Template>
 )
 ;
 
