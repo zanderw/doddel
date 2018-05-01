@@ -17,7 +17,7 @@ import {
 const headerBlock = {
     textAlign: 'center',
     margin: '0 auto',
-    padding: '10px 0'
+    padding: '15px 0'
 };
 
 const imageIcon = {
@@ -54,80 +54,76 @@ const centerBlock = {
     margin: "0 auto"
 };
 
-const selectBlock = {
-    height: "90px",
-    width: "90px",
-    borderRadius: "10px",
-    margin: "0 auto",
-    background: "#FFC20D"
-};
 
 
 const IndexPage = () => (
-    <div>
-        <div style={headerBlock}>
-        <div style={secondaryButtonBlock}>
-            <img src={waddlStar} style={imageIcon}/>
-            Run? Cycle? Swim? {' '}
-            <Button color="link" style={secondaryButton}>Join our awesome community! </Button>
-        </div>
-        </div>
+    <Container>
+        <Row style={headerBlock}>
+            <Col sm="12" md={{size: 8, offset: 2}}>
+                <div style={secondaryButtonBlock}>
+                    <img src={waddlStar} style={imageIcon}/>
+                    Run? Cycle? Swim? {' '}
+                    <SecondaryBlockButton>Join our awesome community! </SecondaryBlockButton>
+                </div>
+            </Col>
+        </Row>
         <Row style={heroBlock}>
             <Col xs="12">
-                <h6>Endurance Resources <Badge color="success">FREE</Badge></h6>
+                <h6>Endurance Resources <Badge color="secondary">FREE</Badge></h6>
             </Col>
-            <br />
+            <br/>
+            <br/>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Gear</p>
+                    <Link>
+                        <GearSelectBlock>
+                        </GearSelectBlock>
+                        <SelectTag>Gear</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Nutrition</p>
+                    <Link>
+                        <NutritionSelectBlock>
+                        </NutritionSelectBlock>
+                        <SelectTag>Nutrition</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Races</p>
+                    <Link>
+                        <RacesSelectBlock>
+                        </RacesSelectBlock>
+                        <SelectTag>Races</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Races</p>
+                    <Link>
+                        <ArticlesSelectBlock>
+                        </ArticlesSelectBlock>
+                        <SelectTag>Races</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Races</p>
+                    <Link>
+                        <BlogSelectBlock>
+                        </BlogSelectBlock>
+                        <SelectTag>Gear</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Races</p>
+                    <Link>
+                        <BookSelectBlock>
+                        </BookSelectBlock>
+                        <SelectTag>Gear</SelectTag>
                     </Link>
                 </div>
             </Col>
@@ -135,34 +131,116 @@ const IndexPage = () => (
         <Row style={heroBlock}>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Gear</p>
+                    <Link>
+                        <AppSelectBlock>
+                        </AppSelectBlock>
+                        <SelectTag>Gear</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Nutrition</p>
+                    <Link>
+                        <CommunitySelectBlock>
+                        </CommunitySelectBlock>
+                        <SelectTag>Gear</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link >
-                        <div style={selectBlock}>
-                        </div>
-                        <p>Races</p>
+                    <Link>
+                        <EntertainmentSelectBlock>
+                        </EntertainmentSelectBlock>
+                        <SelectTag>Gear</SelectTag>
+                    </Link>
+                </div>
+            </Col>
+            <Col xs="6" md="2" lg="2">
+                <div style={centerBlock}>
+                    <Link>
+                        <SelectBlock>
+                        </SelectBlock>
+                        <SecondaryBlockButton>+ Add </SecondaryBlockButton>
                     </Link>
                 </div>
             </Col>
         </Row>
-    </div>
+    </Container>
 )
+;
 
+
+const SelectBlock = styled.div`
+    height: 90px;
+    max-width: 90px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: rgba(51,51,51, .08);
+    :hover {
+    opacity: 0.9;
+    }
+`;
+
+const GearSelectBlock = SelectBlock.extend`
+    background: rgb(250, 77, 170);
+`;
+
+const NutritionSelectBlock = SelectBlock.extend`
+    background: #FFC20D;
+`;
+
+const RacesSelectBlock = SelectBlock.extend`
+    background: rgb(255, 152, 51);
+`;
+
+const ArticlesSelectBlock = SelectBlock.extend`
+    background: rgb(16, 204, 221);
+`;
+
+const BlogSelectBlock = SelectBlock.extend`
+    background: rgb(13, 216, 120);
+`;
+
+const BookSelectBlock = SelectBlock.extend`
+    background: rgb(68, 40, 242);
+`;
+
+const AppSelectBlock = SelectBlock.extend`
+    background: rgb(255, 59, 59)
+`;
+
+const CommunitySelectBlock = SelectBlock.extend`
+    background: rgb(45, 152, 201);
+`;
+
+const EntertainmentSelectBlock = SelectBlock.extend`
+    background: rgb(136, 218, 12);
+`;
+
+const SelectTag = styled.h6 `
+font-size: 13px;
+color: #333;
+font-weight: 400;
+padding: 0.5em 0;
+:hover {
+    text - decoration: none;
+}
+`;
+
+const SecondaryBlockButton = styled.button`
+font-size: 13px;
+border: none;
+border-bottom: 2px solid rgba(51,51,51, .5);
+padding: 2px 0;
+border-radius: 0;
+color: #333;
+font-weight: 500;
+background: none;
+:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(51,51,51);
+}
+`;
 
 export default IndexPage
