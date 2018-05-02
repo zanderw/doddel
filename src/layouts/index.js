@@ -13,10 +13,8 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+      description={data.site.siteMetadata.description}
+      image={data.site.siteMetadata.image}
     />
       <ThemeProvider theme={theme}>
         {children()}

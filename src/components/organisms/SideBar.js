@@ -15,7 +15,8 @@ const sideLabel = {
     fontWeight: "400px",
     padding: "5px",
     paddingLeft: "15px",
-    margin: "0"
+    margin: "0",
+    color: "rgba(31,31,31,.5)"
 };
 
 const sideItem = {

@@ -13,13 +13,11 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-source-airtable`,
+            resolve: `gatsby-plugin-nprogress`,
             options: {
-                apiKey: `key0snq8sdZUavtSO`,
-                baseId: `appEI2RhdstQljbIr`,
-                tableName: `Swimming`,
-                tableView: `Grid view`,
-            }
-        }
+                color: `#2D7FF9`,
+                trickle: false,
+            },
+        },
     ],
 };

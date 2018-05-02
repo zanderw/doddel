@@ -3,18 +3,18 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import waddlStar from '../assets/images/waddl_star.svg'
-import eediPlaceholder from '../assets/images/placeholder_image.svg'
-import eediFooterPush from '../assets/images/footer_push.svg'
+import waddlHome from '../assets/images/waddl_home.svg'
+
 
 import {
     Container,
     Row,
     Col,
-    Button,
+    Alert,
     Badge,
 } from 'reactstrap'
 
-import { Template } from '../components';
+import {Template} from '../components';
 
 const headerBlock = {
     textAlign: 'center',
@@ -27,25 +27,7 @@ const imageIcon = {
     marginRight: '13px'
 };
 
-const secondaryButtonBlock = {
-    background: 'rgba(0,0,0, .05)',
-    borderRadius: '6px',
-    padding: '5px 12px',
-    width: 'max-content',
-    textAlign: 'center',
-    fontSize: '13px',
-    color: '#333',
-    margin: '0 auto'
-};
 
-const secondaryButton = {
-    fontSize: '13px',
-    borderBottom: '2px solid rgba(51,51,51, .5)',
-    padding: '2px 0',
-    borderRadius: '0',
-    color: '#333',
-    fontWeight: '500'
-};
 
 const heroBlock = {
     padding: "2em 2em"
@@ -57,130 +39,158 @@ const centerBlock = {
     marginBottom: '30px',
 };
 
+const shareIcon = {
+    width: '100%',
+    maxWidth: '400px',
+    margin: '0 auto'
+};
 
 
 const IndexPage = () => (
-    <Template pageType = "home">
-    <Container>
-        <Row style={headerBlock}>
-            <Col sm="12" md={{size: 8, offset: 2}}>
-                <div style={secondaryButtonBlock}>
-                    <img src={waddlStar} style={imageIcon}/>
-                    Keen? {' '}
-                    <SecondaryBlockButton>Join our awesome community! </SecondaryBlockButton>
-                </div>
-            </Col>
-        </Row>
-        <Row style={heroBlock}>
-            <Col xs="12">
-                <h6>Endurance Resources </h6>
-                <p>Gifted by the world's most generous community of athletes <Badge color="success">WOO!</Badge></p>
-                <br/>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/gear'>
-                        <GearSelectBlock>
-                            <SelectBlockIcon src='https://res.cloudinary.com/waddl/image/upload/v1525250876/waddl_hero_gear.svg' alt='gear-icon' />
-                        </GearSelectBlock>
-                        <SelectTag>Gear</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/nutrition'>
-                        <NutritionSelectBlock>
-                            <SelectBlockIcon src='https://res.cloudinary.com/waddl/image/upload/v1525251996/waddl_hero_nutrition.svg' alt='nutrition-icon' />
-                        </NutritionSelectBlock>
-                        <SelectTag>Nutrition</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/races'>
-                        <RacesSelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525252135/waddl_hero_races.svg' alt='races-icon' />
-                        </RacesSelectBlock>
-                        <SelectTag>Races</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/articles'>
-                        <ArticlesSelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525252440/waddl_hero_articles.svg' alt='articles-icon' />
-                        </ArticlesSelectBlock>
-                        <SelectTag>Articles</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/blogs'>
-                        <BlogSelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525252816/waddl_hero_blog.svg'  alt='blogs-icon' />
-                        </BlogSelectBlock>
-                        <SelectTag>Blogs</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/books'>
-                        <BookSelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525253326/waddl_hero_books.svg'   alt='books-icon'/>
-                        </BookSelectBlock>
-                        <SelectTag>Books</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/apps'>
-                        <AppSelectBlock>
-                            <SelectBlockIconRect src='https://res.cloudinary.com/waddl/image/upload/v1525253473/waddl_hero_apps.svg'   alt='apps-icon'/>
-                        </AppSelectBlock>
-                        <SelectTag>Apps</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/communities'>
-                        <CommunitySelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525253712/waddl_hero_communities.svg'  alt='community-icon' />
-                        </CommunitySelectBlock>
-                        <SelectTag>Communities</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/podcasts'>
-                        <PodcastSelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525253997/waddl_hero_podcast.svg'  alt='podcast-icon' />
-                        </PodcastSelectBlock>
-                        <SelectTag>Podcast</SelectTag>
-                    </Link>
-                </div>
-            </Col>
-            <Col xs="6" md="2" lg="2">
-                <div style={centerBlock}>
-                    <Link to='/'>
-                        <SelectBlock>
-                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525254234/waddl_hero_add.svg'  alt='add-icon' />
-                        </SelectBlock>
-                        <SecondaryBlockButton>+ Add </SecondaryBlockButton>
-                    </Link>
-                </div>
-            </Col>
-        </Row>
-    </Container>
-    </Template>
-)
+        <Template pageType="home">
+            <Container>
+                <Row style={headerBlock}>
+                    <Col sm="12" md={{size: 8, offset: 2}}>
+                        <Alert color="secondary">
+                            <img src={waddlStar} style={imageIcon}/>  Run? Cycle? Swim? <a href="#" className="alert-link">Join our awesome community!</a>
+                        </Alert>
+                    </Col>
+                </Row>
+                <Row style={heroBlock}>
+                    <Col xs="12">
+                        <h6><strong>Endurance Resources </strong></h6>
+                        <p>Gifted by the world's most generous community of athletes <Badge color="success">WOO!</Badge></p>
+                        <br/>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/gear'>
+                                <GearSelectBlock>
+                                    <SelectBlockIcon
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525250876/waddl_hero_gear.svg'
+                                        alt='gear-icon'/>
+                                </GearSelectBlock>
+                                <SelectTag>Gear</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/nutrition'>
+                                <NutritionSelectBlock>
+                                    <SelectBlockIcon
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525251996/waddl_hero_nutrition.svg'
+                                        alt='nutrition-icon'/>
+                                </NutritionSelectBlock>
+                                <SelectTag>Nutrition</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/races'>
+                                <RacesSelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525252135/waddl_hero_races.svg'
+                                        alt='races-icon'/>
+                                </RacesSelectBlock>
+                                <SelectTag>Races</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/articles'>
+                                <ArticlesSelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525252440/waddl_hero_articles.svg'
+                                        alt='articles-icon'/>
+                                </ArticlesSelectBlock>
+                                <SelectTag>Articles</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/blogs'>
+                                <BlogSelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525252816/waddl_hero_blog.svg'
+                                        alt='blogs-icon'/>
+                                </BlogSelectBlock>
+                                <SelectTag>Blogs</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/books'>
+                                <BookSelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525253326/waddl_hero_books.svg'
+                                        alt='books-icon'/>
+                                </BookSelectBlock>
+                                <SelectTag>Books</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/apps'>
+                                <AppSelectBlock>
+                                    <SelectBlockIconRect
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525253473/waddl_hero_apps.svg'
+                                        alt='apps-icon'/>
+                                </AppSelectBlock>
+                                <SelectTag>Apps</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/communities'>
+                                <CommunitySelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525253712/waddl_hero_communities.svg'
+                                        alt='community-icon'/>
+                                </CommunitySelectBlock>
+                                <SelectTag>Communities</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/podcasts'>
+                                <PodcastSelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525253997/waddl_hero_podcast.svg'
+                                        alt='podcast-icon'/>
+                                </PodcastSelectBlock>
+                                <SelectTag>Podcast</SelectTag>
+                            </Link>
+                        </div>
+                    </Col>
+                    <Col xs="6" md="2" lg="2">
+                        <div style={centerBlock}>
+                            <Link to='/'>
+                                <SelectBlock>
+                                    <SelectBlockIconSquare
+                                        src='https://res.cloudinary.com/waddl/image/upload/v1525254234/waddl_hero_add.svg'
+                                        alt='add-icon'/>
+                                </SelectBlock>
+                                <SecondaryBlockButton>+ Add </SecondaryBlockButton>
+                            </Link>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm="12" md={{size: 6, offset: 3}}>
+                        <img src={waddlHome} style={shareIcon}/>
+                    </Col>
+                </Row>
+            </Container>
+        </Template>
+    )
 ;
 
 const SelectBlockIcon = styled.img`

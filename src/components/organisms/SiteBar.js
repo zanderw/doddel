@@ -10,7 +10,7 @@ import {
     DropdownMenu,
     DropdownItem,
     Dropdown,
-    Button
+    Button,
 } from 'reactstrap';
 
 
@@ -67,7 +67,7 @@ export default class ReactNavbar extends React.Component {
                 <Link to="/">
                     <img style={logo} src={waddlLogo}/> {' '}
                 </Link>
-                <Link style={floatRight} to="/research">
+                <Link style={floatRight} to="/share">
                     <Button color="primary" size="sm">Share with friends</Button>
                 </Link>
                 <Dropdown style={floatRight} group isOpen={this.state.dropdownOpen} size="sm" toggle={this.toggle}>

@@ -2,9 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import media from "../media";
+import NProgress from "nprogress"
 
 import SiteBar from "../organisms/SiteBar";
 import SideBar from "../organisms/SideBar";
+
+window.___emitter.on(`onDelayedLoadPageResources`, () => {
+    NProgress.configure(options);
+    NProgress.start()
+});
+window.___emitter.on(`onPostLoadPageResources`, () => {
+    NProgress.done()
+});
 
 
 export default class Template extends React.PureComponent {
