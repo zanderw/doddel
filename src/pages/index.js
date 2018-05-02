@@ -53,7 +53,8 @@ const heroBlock = {
 
 const centerBlock = {
     textAlign: "center",
-    margin: "0 auto"
+    margin: "0 auto",
+    marginBottom: '30px',
 };
 
 
@@ -65,21 +66,22 @@ const IndexPage = () => (
             <Col sm="12" md={{size: 8, offset: 2}}>
                 <div style={secondaryButtonBlock}>
                     <img src={waddlStar} style={imageIcon}/>
-                    Run? Cycle? Swim? {' '}
+                    Keen? {' '}
                     <SecondaryBlockButton>Join our awesome community! </SecondaryBlockButton>
                 </div>
             </Col>
         </Row>
         <Row style={heroBlock}>
             <Col xs="12">
-                <h6>Endurance Resources <Badge color="secondary">FREE</Badge></h6>
+                <h6>Endurance Resources </h6>
+                <p>Gifted by the world's most generous community of athletes <Badge color="success">WOO!</Badge></p>
+                <br/>
             </Col>
-            <br/>
-            <br/>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/gear'>
                         <GearSelectBlock>
+                            <SelectBlockIcon src='https://res.cloudinary.com/waddl/image/upload/v1525250876/waddl_hero_gear.svg' alt='gear-icon' />
                         </GearSelectBlock>
                         <SelectTag>Gear</SelectTag>
                     </Link>
@@ -87,8 +89,9 @@ const IndexPage = () => (
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/nutrition'>
                         <NutritionSelectBlock>
+                            <SelectBlockIcon src='https://res.cloudinary.com/waddl/image/upload/v1525251996/waddl_hero_nutrition.svg' alt='nutrition-icon' />
                         </NutritionSelectBlock>
                         <SelectTag>Nutrition</SelectTag>
                     </Link>
@@ -96,8 +99,9 @@ const IndexPage = () => (
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/races'>
                         <RacesSelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525252135/waddl_hero_races.svg' alt='races-icon' />
                         </RacesSelectBlock>
                         <SelectTag>Races</SelectTag>
                     </Link>
@@ -105,64 +109,69 @@ const IndexPage = () => (
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/articles'>
                         <ArticlesSelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525252440/waddl_hero_articles.svg' alt='articles-icon' />
                         </ArticlesSelectBlock>
-                        <SelectTag>Races</SelectTag>
+                        <SelectTag>Articles</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/blogs'>
                         <BlogSelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525252816/waddl_hero_blog.svg'  alt='blogs-icon' />
                         </BlogSelectBlock>
-                        <SelectTag>Gear</SelectTag>
+                        <SelectTag>Blogs</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/books'>
                         <BookSelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525253326/waddl_hero_books.svg'   alt='books-icon'/>
                         </BookSelectBlock>
-                        <SelectTag>Gear</SelectTag>
+                        <SelectTag>Books</SelectTag>
                     </Link>
                 </div>
             </Col>
-        </Row>
-        <Row style={heroBlock}>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/apps'>
                         <AppSelectBlock>
+                            <SelectBlockIconRect src='https://res.cloudinary.com/waddl/image/upload/v1525253473/waddl_hero_apps.svg'   alt='apps-icon'/>
                         </AppSelectBlock>
-                        <SelectTag>Gear</SelectTag>
+                        <SelectTag>Apps</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/communities'>
                         <CommunitySelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525253712/waddl_hero_communities.svg'  alt='community-icon' />
                         </CommunitySelectBlock>
-                        <SelectTag>Gear</SelectTag>
+                        <SelectTag>Communities</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
-                        <EntertainmentSelectBlock>
-                        </EntertainmentSelectBlock>
-                        <SelectTag>Gear</SelectTag>
+                    <Link to='/podcasts'>
+                        <PodcastSelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525253997/waddl_hero_podcast.svg'  alt='podcast-icon' />
+                        </PodcastSelectBlock>
+                        <SelectTag>Podcast</SelectTag>
                     </Link>
                 </div>
             </Col>
             <Col xs="6" md="2" lg="2">
                 <div style={centerBlock}>
-                    <Link>
+                    <Link to='/'>
                         <SelectBlock>
+                            <SelectBlockIconSquare src='https://res.cloudinary.com/waddl/image/upload/v1525254234/waddl_hero_add.svg'  alt='add-icon' />
                         </SelectBlock>
                         <SecondaryBlockButton>+ Add </SecondaryBlockButton>
                     </Link>
@@ -174,6 +183,20 @@ const IndexPage = () => (
 )
 ;
 
+const SelectBlockIcon = styled.img`
+    margin-top: 30px;
+    width: 50px;
+`;
+
+const SelectBlockIconSquare = SelectBlockIcon.extend`
+    margin-top: 25px;
+    width: 40px;
+`;
+
+const SelectBlockIconRect = SelectBlockIcon.extend`
+    margin-top: 25px;
+    width: 36px;
+`;
 
 const SelectBlock = styled.div`
     height: 90px;
@@ -189,6 +212,7 @@ const SelectBlock = styled.div`
 const GearSelectBlock = SelectBlock.extend`
     background: rgb(250, 77, 170);
 `;
+
 
 const NutritionSelectBlock = SelectBlock.extend`
     background: #FFC20D;
@@ -211,14 +235,14 @@ const BookSelectBlock = SelectBlock.extend`
 `;
 
 const AppSelectBlock = SelectBlock.extend`
-    background: rgb(255, 59, 59)
+   background: rgb(44, 88, 255);
 `;
 
 const CommunitySelectBlock = SelectBlock.extend`
-    background: rgb(45, 152, 201);
+    background: rgb(255, 79, 79);
 `;
 
-const EntertainmentSelectBlock = SelectBlock.extend`
+const PodcastSelectBlock = SelectBlock.extend`
     background: rgb(136, 218, 12);
 `;
 

@@ -1,6 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: 'Gatsby Default Starter',
+        title: 'Waddl',
+        description: 'Endurance resources gifted by the most generous community of athletes',
+        image: '../assets/images/waddl_meta.png'
     },
     plugins: [
         'gatsby-plugin-react-helmet',

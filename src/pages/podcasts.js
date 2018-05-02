@@ -90,10 +90,10 @@ export default class Example extends React.Component {
 
     render() {
         return (
-            <Template pageType="entertainment">
+            <Template pageType="podcasts">
                 <div>
                     <div style={titleBlock}>
-                        <p style={titleTag}>Entertainment</p>
+                        <p style={titleTag}>Podcasts</p>
                     </div>
 
                     <Nav tabs style={tabsBlock}>

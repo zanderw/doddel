@@ -23,7 +23,7 @@ import { Template } from '../components';
 
 
 const titleBlock = {
-    background: '#3E55FF',
+    background: 'rgb(255, 79, 79)',
     marginLeft: '0',
     marginRight: '0',
     textAlign: 'center',
@@ -37,7 +37,7 @@ const titleTag = {
 };
 
 const tabsBlock = {
-    background: '#3E55FF',
+    background: 'rgb(255, 79, 79)',
     paddingLeft: '15px'
 };
 

@@ -10,7 +10,7 @@ export const breakpoints = {
 export default Object.keys(breakpoints).reduce(
     (accumulator, key) => {
         accumulator[key] = (...args) => css`
-      @media (min-width: ${breakpoints[key]}) {
+      @media (max-width: ${breakpoints[key]}) {
         ${css(...args)}
       }`;
         return accumulator;

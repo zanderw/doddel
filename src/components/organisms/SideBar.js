@@ -1,20 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+import media from "../media";
+
 
 import {
     ListGroup,
     ListGroupItem,
 } from 'reactstrap';
 
-const sideNav = {
-    position: 'fixed',
-    top: '56px',
-    left: '0',
-    width: '200px',
-    bottom: '0',
-    background: 'rgba(0,0,0, .05)',
-    paddingTop: "15px"
-};
 
 const sideLabel = {
     fontSize: "11px",
@@ -54,7 +48,7 @@ export default class SideBar extends React.Component {
         const pageType = props.pageType;
     }
     render() {
-        return <div style={sideNav} >
+        return <SideNav>
             <p style={sideLabel}>POPULAR</p>
             <ListGroup>
                 <ListGroupItem tag="a" href="/gear" style={this.props.pageType === 'gear' ? sideItemActive : sideItem}>Gear</ListGroupItem>
@@ -73,10 +67,25 @@ export default class SideBar extends React.Component {
             <ListGroup>
                 <ListGroupItem style={sideItem} tag="a" href="/apps">Apps</ListGroupItem>
                 <ListGroupItem style={sideItem} tag="a" href="/communities">Communities</ListGroupItem>
-                <ListGroupItem style={sideItem} tag="a" href="/entertainment">Entertainment</ListGroupItem>
+                <ListGroupItem style={sideItem} tag="a" href="/podcasts">Podcasts</ListGroupItem>
             </ListGroup>
             <hr />
-        </div>;
+        </SideNav>;
     }
 }
+
+
+const SideNav = styled.div `
+    position: fixed;
+    top: 54px;
+    left: 0;
+    width: 200px;
+    bottom: 0;
+    background: rgba(0,0,0, .05);
+    padding-top: 15px;
+    
+    ${media.tablet`
+       display: none;
+    `};
+`;
 

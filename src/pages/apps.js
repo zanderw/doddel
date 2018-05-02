@@ -23,7 +23,7 @@ import classnames from 'classnames';
 
 
 const titleBlock = {
-    background: '#C8C8C8',
+    background: 'rgb(44, 88, 255)',
     marginLeft: '0',
     marginRight: '0',
     textAlign: 'center',
@@ -37,7 +37,7 @@ const titleTag = {
 };
 
 const tabsBlock = {
-    background: '#C8C8C8',
+    background: 'rgb(44, 88, 255)',
     paddingLeft: '15px'
 };
 
