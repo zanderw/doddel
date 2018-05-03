@@ -17,6 +17,8 @@ import {
     Row,
     Col
 } from 'reactstrap';
+import styled from 'styled-components'
+import media from "../components/media";
 import classnames from 'classnames';
 
 import { Template } from '../components';
@@ -52,6 +54,8 @@ const waddlCardLink = {
 
 const waddlCard = {
     border: 'none',
+    display: 'inline-block', // Don't let them vertically span multiple columns
+    width: '100%' // Don't let their width change
 };
 
 const waddlCardBody = {
@@ -121,11 +125,11 @@ export default class Example extends React.Component {
                     <TabContent activeTab={this.state.activeTab} style={waddlContent}>
                         <TabPane tabId="1">
                             <br/>
-                            <CardColumns>
+                            <BlogColumns>
                                 <a href="/" style={waddlCardLink}>
                                     <Card style={waddlCard}>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525338613/Screen_Shot_2018-05-03_at_10.09.51.png"
                                                  alt="Card image cap"/>
                                         <CardBody style={waddlCardBody}>
                                             <CardText style={waddlCardText}>Name</CardText>
@@ -134,7 +138,19 @@ export default class Example extends React.Component {
                                         </CardBody>
                                     </Card>
                                 </a>
-                            </CardColumns>
+                                <a href="/" style={waddlCardLink}>
+                                    <Card style={waddlCard}>
+                                        <CardImg top width="100%"
+                                                 src="http://res.cloudinary.com/waddl/image/upload/q_80/v1525337748/Screen_Shot_2018-05-03_at_09.54.12.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody style={waddlCardBody}>
+                                            <CardText style={waddlCardText}>Name</CardText>
+                                            <Badge color="secondary" style={waddlCardBadge}>New</Badge> {''} <Badge
+                                            color="secondary" style={waddlCardBadge}>$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </a>
+                            </BlogColumns>
                         </TabPane>
                         <TabPane tabId="2">
                             <br/>
@@ -159,3 +175,23 @@ export default class Example extends React.Component {
         );
     }
 }
+
+const BlogColumns = styled.div`
+    column-count: 6;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+    
+      ${media.laptop`
+        column-count: 4;
+    `};
+    
+     ${media.tablet`
+        column-count: 3;
+    `};
+    
+     ${media.phablet`
+        column-count: 2;
+    `};
+    
+`;
