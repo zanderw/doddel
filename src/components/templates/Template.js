@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import media from "../media";
+import favicon from '../../assets/favicon/favicon.ico';
 
 import SiteBar from "../organisms/SiteBar";
 import SideBar from "../organisms/SideBar";
@@ -21,6 +22,7 @@ export default class Template extends React.PureComponent {
 
         return (
             <div>
+                <link rel="shortcut icon" type="image/png" href={favicon} />
                 <SiteBar />
                 <SideBar pageType={pageType}  />
                 <WaddlContent>

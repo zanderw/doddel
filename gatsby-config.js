@@ -6,6 +6,8 @@ module.exports = {
     },
     plugins: [
         'gatsby-plugin-react-helmet',
+        'gatsby-plugin-styled-components',
+        'gatsby-plugin-nprogress',
         {
             resolve: `gatsby-plugin-sass`,
             options: {
@@ -17,6 +19,7 @@ module.exports = {
             options: {
                 color: `#2D7FF9`,
                 trickle: false,
+                showSpinner: false
             },
         },
     ],
