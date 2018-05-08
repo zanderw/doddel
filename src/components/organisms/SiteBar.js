@@ -1,11 +1,10 @@
+// Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import waddlLogo from '../../assets/images/waddl_logo.svg'
-
+// Bootstrap
 import {
-    UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
@@ -13,31 +12,10 @@ import {
     Button,
 } from 'reactstrap';
 
+//Images
+import waddlLogo from '../../assets/images/waddl_logo.svg'
 
-const logo = {
-    width: '60px',
-    height: 'auto'
-};
-
-
-const dropdownSecondary = {
-    backgroundColor: '#fff',
-    borderRadius: '0',
-    border: 'none',
-    color: 'rgba(51,51,51, 0.5)',
-    fontSize: '13px',
-};
-
-const dropdownItem = {
-    color: 'rgb(51,51,51)',
-    fontSize: '13px',
-};
-
-const floatRight = {
-    float: 'right',
-    marginLeft: '15px'
-};
-
+//  Components
 export default class ReactNavbar extends React.Component {
     constructor(props) {
         super(props);
@@ -65,7 +43,7 @@ export default class ReactNavbar extends React.Component {
         return <div>
             <SiteBar color="light" light expand="xs">
                 <Link to="/">
-                    <img style={logo} src={waddlLogo}/> {' '}
+                    <Logo src={waddlLogo}/>
                 </Link>
                 <Link style={floatRight} to="/share">
                     <Button color="primary" size="sm">Share with friends</Button>
@@ -75,9 +53,12 @@ export default class ReactNavbar extends React.Component {
                         Help
                     </DropdownToggle>
                     <DropdownMenu right>
-                        <DropdownItem style={dropdownItem} href='/get-in-touch'> Get in touch </DropdownItem>
-                        <DropdownItem style={dropdownItem} href='/our-story'>Our Story</DropdownItem>
-                        <DropdownItem style={dropdownItem} href='/whats-new'>What's New</DropdownItem>
+                        <Link to='our-story'>
+                            <DropdownItem style={dropdownItem}>Our Story</DropdownItem>
+                        </Link>
+                        <Link to='whats-new'>
+                            <DropdownItem style={dropdownItem}>What's New</DropdownItem>
+                        </Link>
                     </DropdownMenu>
                 </Dropdown>
             </SiteBar>
@@ -85,6 +66,7 @@ export default class ReactNavbar extends React.Component {
     }
 }
 
+// Styled Components
 const SiteBar = styled.div `
   padding: 10px 20px;
   background: #fff;
@@ -96,4 +78,28 @@ const SiteBar = styled.div `
   right: 0;
   z-index: 1;
 `;
+
+ const Logo = styled.img`
+   width: 60px;
+   height: auto;
+ `;
+
+// Inline Styles
+const dropdownSecondary = {
+    backgroundColor: '#fff',
+    borderRadius: '0',
+    border: 'none',
+    color: 'rgba(51,51,51, 0.5)',
+    fontSize: '13px',
+};
+
+const dropdownItem = {
+    color: 'rgb(51,51,51)',
+    fontSize: '13px',
+};
+
+const floatRight = {
+    float: 'right',
+    marginLeft: '15px'
+};
 

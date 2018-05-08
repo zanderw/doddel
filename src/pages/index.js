@@ -1,11 +1,9 @@
+// Dependencies
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import waddlStar from '../assets/images/waddl_star.svg'
-import waddlHome from '../assets/images/waddl_home.svg'
-
-
+// Bootstrap
 import {
     Container,
     Row,
@@ -14,38 +12,14 @@ import {
     Badge,
 } from 'reactstrap'
 
+//Images
+import waddlStar from '../assets/images/waddl_star.svg'
+import waddlHome from '../assets/images/waddl_home.svg'
+
+// Components
 import {Template} from '../components';
 
-const headerBlock = {
-    textAlign: 'center',
-    margin: '0 auto',
-    padding: '15px 0'
-};
-
-const imageIcon = {
-    width: '13px',
-    marginRight: '13px'
-};
-
-
-
-const heroBlock = {
-    padding: "2em 2em"
-};
-
-const centerBlock = {
-    textAlign: "center",
-    margin: "0 auto",
-    marginBottom: '30px',
-};
-
-const shareIcon = {
-    width: '100%',
-    maxWidth: '400px',
-    margin: '0 auto'
-};
-
-
+// Page
 const IndexPage = () => (
         <Template pageType="home">
             <Container>
@@ -193,6 +167,7 @@ const IndexPage = () => (
     )
 ;
 
+//Styled Components
 const SelectBlockIcon = styled.img`
     margin-top: 30px;
     width: 50px;
@@ -256,6 +231,7 @@ const PodcastSelectBlock = SelectBlock.extend`
     background: rgb(136, 218, 12);
 `;
 
+
 const SelectTag = styled.h6 `
 font-size: 13px;
 color: #333;
@@ -280,5 +256,33 @@ background: none;
     border-bottom: 2px solid rgb(51,51,51);
 }
 `;
+
+// Inline Styles
+const headerBlock = {
+    textAlign: 'center',
+    margin: '0 auto',
+    padding: '15px 0'
+};
+
+const imageIcon = {
+    width: '13px',
+    marginRight: '13px'
+};
+
+const heroBlock = {
+    padding: "2em 2em"
+};
+
+const centerBlock = {
+    textAlign: "center",
+    margin: "0 auto",
+    marginBottom: '30px',
+};
+
+const shareIcon = {
+    width: '100%',
+    maxWidth: '400px',
+    margin: '0 auto'
+};
 
 export default IndexPage

@@ -4,18 +4,19 @@ import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import theme from '../components/theme'
 
-import ReactNavbar from '../components/organisms/SiteBar'
-import SideBar from '../components/organisms/SideBar'
+// images
+import favicon from '../assets/favicon/favicon.ico';
+import metaImage from '../assets/images/waddl_meta.png';
 
+// bootstrap
 import '../assets/scss/bootstrap.scss'
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
-      description={data.site.siteMetadata.description}
-      image={data.site.siteMetadata.image}
+
     />
+      <link rel="shortcut icon" href={favicon} />
       <ThemeProvider theme={theme}>
         {children()}
       </ThemeProvider>
@@ -33,6 +34,8 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
+        keywords
       }
     }
   }

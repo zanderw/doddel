@@ -1,4 +1,8 @@
+// Dependencies
 import React from 'react';
+import classnames from 'classnames';
+
+// Bootstrap
 import {
     TabContent,
     TabPane,
@@ -6,70 +10,20 @@ import {
     Nav,
     NavItem,
     NavLink,
-    CardColumns,
     Card,
     CardImg,
     CardBody,
-    CardSubtitle,
-    Button,
-    CardTitle,
     CardText,
-    Row,
-    Col
 } from 'reactstrap';
-import classnames from 'classnames';
 
-import { Template } from '../components';
+//Components
+import {
+    Template,
+    PageHeaderBlock,
+    WaddlColumns
+} from '../components';
 
-
-const titleBlock = {
-    background: 'rgb(255, 79, 79)',
-    marginLeft: '0',
-    marginRight: '0',
-    textAlign: 'center',
-    paddingTop: '15px',
-    paddingBottom: '15px'
-};
-
-const titleTag = {
-    color: '#fff',
-    marginBottom: '0'
-};
-
-const tabsBlock = {
-    background: 'rgb(255, 79, 79)',
-    paddingLeft: '15px'
-};
-
-const waddlContent = {
-    paddingLeft: '15px',
-    paddingRight: '15px'
-};
-
-const waddlCardLink = {
-    display: 'block',
-};
-
-const waddlCard = {
-    border: 'none',
-};
-
-const waddlCardBody = {
-    padding: '10px 0'
-};
-
-const waddlCardText = {
-    fontSize: '12px',
-    paddingBottom: '5px',
-    marginBottom: '0'
-};
-
-const waddlCardBadge = {
-    fontSize: '12px',
-    fontWeight: '300',
-};
-
-
+// Page
 export default class Example extends React.Component {
     constructor(props) {
         super(props);
@@ -92,10 +46,9 @@ export default class Example extends React.Component {
         return (
             <Template pageType="communities">
                 <div>
-                    <div style={titleBlock}>
-                        <p style={titleTag}>Communities</p>
-                    </div>
-
+                    <PageHeaderBlock style={communityColor}>
+                        <p>Communities</p>
+                    </PageHeaderBlock>
                     <Nav tabs style={tabsBlock}>
                         <NavItem>
                             <NavLink
@@ -121,7 +74,7 @@ export default class Example extends React.Component {
                     <TabContent activeTab={this.state.activeTab} style={waddlContent}>
                         <TabPane tabId="1">
                             <br/>
-                            <CardColumns>
+                            <WaddlColumns>
                                 <a href="/" style={waddlCardLink}>
                                     <Card style={waddlCard}>
                                         <CardImg top width="100%"
@@ -134,11 +87,11 @@ export default class Example extends React.Component {
                                         </CardBody>
                                     </Card>
                                 </a>
-                            </CardColumns>
+                            </WaddlColumns>
                         </TabPane>
                         <TabPane tabId="2">
                             <br/>
-                            <CardColumns>
+                            <WaddlColumns>
                                 <a href="/" style={waddlCardLink}>
                                     <Card style={waddlCard}>
                                         <CardImg top width="100%"
@@ -151,7 +104,7 @@ export default class Example extends React.Component {
                                         </CardBody>
                                     </Card>
                                 </a>
-                            </CardColumns>
+                            </WaddlColumns>
                         </TabPane>
                     </TabContent>
                 </div>
@@ -159,3 +112,44 @@ export default class Example extends React.Component {
         );
     }
 }
+
+// Inline Styles
+const communityColor = {
+    background: 'rgb(255, 79, 79)',
+};
+
+const tabsBlock = {
+    background: 'rgb(255, 79, 79)',
+    paddingLeft: '15px',
+    marginTop: '-1px'
+};
+
+const waddlContent = {
+    paddingLeft: '15px',
+    paddingRight: '15px'
+};
+
+const waddlCardLink = {
+    display: 'block',
+};
+
+const waddlCard = {
+    border: 'none',
+    display: 'inline-block',
+    width: '100%'
+};
+
+const waddlCardBody = {
+    padding: '10px 0'
+};
+
+const waddlCardText = {
+    fontSize: '12px',
+    paddingBottom: '5px',
+    marginBottom: '0'
+};
+
+const waddlCardBadge = {
+    fontSize: '12px',
+    fontWeight: '300',
+};

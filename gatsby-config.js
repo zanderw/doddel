@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: 'Waddl',
         description: 'Endurance resources gifted by the most generous community of athletes',
-        image: '../assets/images/waddl_meta.png'
+        keywords: 'Endurance, Marathons, Ultra, Races, Athlete, Triathlon, Resources'
     },
     plugins: [
         'gatsby-plugin-react-helmet',
