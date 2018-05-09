@@ -20,7 +20,8 @@ import {
 import {
     Template,
     PageHeaderBlock,
-    WaddlColumns
+    WaddlColumns,
+    WaddlCardLink
 } from '../components';
 
 // Page
@@ -48,6 +49,7 @@ export default class Example extends React.Component {
                 <div>
                     <PageHeaderBlock style={podcastColor}>
                         <p>Podcasts</p>
+                        <a>+</a>
                     </PageHeaderBlock>
 
                     <Nav tabs style={tabsBlock}>
@@ -58,7 +60,7 @@ export default class Example extends React.Component {
                                     this.toggle('1');
                                 }}
                             >
-                                Films
+                                Inspirational
                             </NavLink>
                         </NavItem>
                         <NavItem>
@@ -68,7 +70,7 @@ export default class Example extends React.Component {
                                     this.toggle('2');
                                 }}
                             >
-                                Podcasts
+                                For Training
                             </NavLink>
                         </NavItem>
                     </Nav>
@@ -76,35 +78,35 @@ export default class Example extends React.Component {
                         <TabPane tabId="1">
                             <br/>
                             <WaddlColumns>
-                                <a href="/" style={waddlCardLink}>
-                                    <Card style={waddlCard}>
+                                <WaddlCardLink href="/">
+                                    <Card >
                                         <CardImg top width="100%"
                                                  src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
                                                  alt="Card image cap"/>
-                                        <CardBody style={waddlCardBody}>
-                                            <CardText style={waddlCardText}>Name</CardText>
-                                            <Badge color="secondary" style={waddlCardBadge}>New</Badge> {''} <Badge
-                                            color="secondary" style={waddlCardBadge}>$</Badge>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge> {''} <Badge
+                                            color="secondary">$</Badge>
                                         </CardBody>
                                     </Card>
-                                </a>
+                                </WaddlCardLink>
                             </WaddlColumns>
                         </TabPane>
                         <TabPane tabId="2">
                             <br/>
                             <WaddlColumns>
-                                <a href="/" style={waddlCardLink}>
-                                    <Card style={waddlCard}>
+                                <WaddlCardLink href="/">
+                                    <Card>
                                         <CardImg top width="100%"
                                                  src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
                                                  alt="Card image cap"/>
-                                        <CardBody style={waddlCardBody}>
-                                            <CardText style={waddlCardText}>Name</CardText>
-                                            <Badge color="secondary" style={waddlCardBadge}>New</Badge> {''} <Badge
-                                            color="secondary" style={waddlCardBadge}>$</Badge>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge> {''} <Badge
+                                            color="secondary">$</Badge>
                                         </CardBody>
                                     </Card>
-                                </a>
+                                </WaddlCardLink>
                             </WaddlColumns>
                         </TabPane>
                     </TabContent>
@@ -127,29 +129,4 @@ const tabsBlock = {
 const waddlContent = {
     paddingLeft: '15px',
     paddingRight: '15px'
-};
-
-const waddlCardLink = {
-    display: 'block',
-};
-
-const waddlCard = {
-    border: 'none',
-    display: 'inline-block',
-    width: '100%'
-};
-
-const waddlCardBody = {
-    padding: '10px 0'
-};
-
-const waddlCardText = {
-    fontSize: '12px',
-    paddingBottom: '5px',
-    marginBottom: '0'
-};
-
-const waddlCardBadge = {
-    fontSize: '12px',
-    fontWeight: '300',
 };

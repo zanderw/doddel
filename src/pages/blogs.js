@@ -27,6 +27,7 @@ import {
     PageHeaderBlock,
     WaddlColumns,
     WaddlLabel,
+    WaddlCardLink,
 } from '../components';
 
 // Page
@@ -54,6 +55,7 @@ export default class Example extends React.Component {
                 <div>
                     <PageHeaderBlock style={blogColor}>
                         <p>Blogs</p>
+                        <a>+</a>
                     </PageHeaderBlock>
 
                     <Nav tabs style={tabsBlock}>
@@ -74,7 +76,7 @@ export default class Example extends React.Component {
                                     this.toggle('2');
                                 }}
                             >
-                                Food
+                                Nutrition
                             </NavLink>
                         </NavItem>
                     </Nav>
@@ -85,47 +87,47 @@ export default class Example extends React.Component {
                                 <Col><WaddlLabel>Header</WaddlLabel></Col>
                             </Row>
                             <WaddlColumns>
-                                <a href="/" style={waddlCardLink}>
-                                    <Card style={waddlCard}>
+                                <WaddlCardLink href="/">
+                                    <Card>
                                         <CardImg top width="100%"
                                                  src="https://res.cloudinary.com/waddl/image/upload/v1525338613/Screen_Shot_2018-05-03_at_10.09.51.png"
                                                  alt="Card image cap"/>
-                                        <CardBody style={waddlCardBody}>
-                                            <CardText style={waddlCardText}>Name</CardText>
-                                            <Badge color="secondary" style={waddlCardBadge}>New</Badge> {''} <Badge
-                                            color="secondary" style={waddlCardBadge}>$</Badge>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge> {''} <Badge
+                                            color="secondary">$</Badge>
                                         </CardBody>
                                     </Card>
-                                </a>
-                                <a href="/" style={waddlCardLink}>
-                                    <Card style={waddlCard}>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="/" >
+                                    <Card>
                                         <CardImg top width="100%"
                                                  src="http://res.cloudinary.com/waddl/image/upload/q_80/v1525337748/Screen_Shot_2018-05-03_at_09.54.12.png"
                                                  alt="Card image cap"/>
-                                        <CardBody style={waddlCardBody}>
-                                            <CardText style={waddlCardText}>Name</CardText>
-                                            <Badge color="secondary" style={waddlCardBadge}>New</Badge> {''} <Badge
-                                            color="secondary" style={waddlCardBadge}>$</Badge>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge> {''} <Badge
+                                            color="secondary">$</Badge>
                                         </CardBody>
                                     </Card>
-                                </a>
+                                </WaddlCardLink>
                             </WaddlColumns>
                         </TabPane>
                         <TabPane tabId="2">
                             <br/>
                             <WaddlColumns>
-                                <a href="/" style={waddlCardLink}>
-                                    <Card style={waddlCard}>
+                                <WaddlCardLink href="/">
+                                    <Card>
                                         <CardImg top width="100%"
                                                  src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
                                                  alt="Card image cap"/>
-                                        <CardBody style={waddlCardBody}>
-                                            <CardText style={waddlCardText}>Name</CardText>
-                                            <Badge color="secondary" style={waddlCardBadge}>New</Badge> {''} <Badge
-                                            color="secondary" style={waddlCardBadge}>$</Badge>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge> {''} <Badge
+                                            color="secondary">$</Badge>
                                         </CardBody>
                                     </Card>
-                                </a>
+                                </WaddlCardLink>
                             </WaddlColumns>
                         </TabPane>
                     </TabContent>
@@ -149,29 +151,4 @@ const tabsBlock = {
 const waddlContent = {
     paddingLeft: '15px',
     paddingRight: '15px'
-};
-
-const waddlCardLink = {
-    display: 'block',
-};
-
-const waddlCard = {
-    border: 'none',
-    display: 'inline-block', // Don't let them vertically span multiple columns
-    width: '100%' // Don't let their width change
-};
-
-const waddlCardBody = {
-    padding: '10px 0'
-};
-
-const waddlCardText = {
-    fontSize: '12px',
-    paddingBottom: '5px',
-    marginBottom: '0'
-};
-
-const waddlCardBadge = {
-    fontSize: '12px',
-    fontWeight: '300',
 };

@@ -26,7 +26,7 @@ const IndexPage = () => (
                 <Row style={headerBlock}>
                     <Col sm="12" md={{size: 8, offset: 2}}>
                         <Alert color="secondary">
-                            <img src={waddlStar} style={imageIcon}/>  Run? Cycle? Swim? <a href="#" className="alert-link">Join our awesome community!</a>
+                            <img src={waddlStar} style={imageIcon}/>  Run? Cycle? Swim? <a href="#" className="alert-link">Recieve our weekly updates!</a>
                         </Alert>
                     </Col>
                 </Row>

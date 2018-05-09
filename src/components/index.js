@@ -2,6 +2,7 @@
 import PageHeaderBlock from "./atoms/PageHeaderBlock";
 import WaddlColumns from "./atoms/WaddlColumns";
 import WaddlLabel from "./atoms/WaddlLabel"
+import WaddlCardLink from "./atoms/WaddlCardLink"
 // Molecules
 
 // Organisms
@@ -19,6 +20,7 @@ const components = {
 
     //Columns
     WaddlColumns,
+    WaddlCardLink,
 
 
     Footer,
