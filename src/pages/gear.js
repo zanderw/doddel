@@ -350,21 +350,21 @@ export default class Example extends React.Component {
                         </TabPane>
                         <TabPane tabId="3">
                             <br/>
-                            <Badge href="#goggles" color="secondary"> Goggles</Badge> {''}
-                            <Badge href="#swimwear" color="secondary"> Swimwear</Badge> {''}
-                            <Badge href="#swimcap" color="secondary"> Swimcap</Badge> {''}
-                            <Badge href="#westuit" color="secondary"> Wetsuit</Badge> {''}
-                            <Badge href="#equipment" color="secondary"> Equipment</Badge>
+                            <Badge href="#goggles" color="secondary"> Goggles (18)</Badge> {''}
+                            <Badge href="#swimwear" color="secondary"> Swimwear (36) </Badge> {''}
+                            <Badge href="#swimcap" color="secondary"> Swimcap (8)</Badge> {''}
+                            <Badge href="#wetsuit" color="secondary"> Wetsuit (28)</Badge> {''}
+                            <Badge href="#equipment" color="secondary"> Equipment (8) </Badge>
                             <br/>
                             <br/>
                             <WaddlLabel id="goggles">Goggles</WaddlLabel>
                             <WaddlColumns>
                                 <WaddlCardLink target="_blank"
-                                               href="https://www.amazon.co.uk/gp/product/B01BH997S8/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01BH997S8&linkCode=as2&tag=waddl-21&linkId=32990c163d4c29796a065441942b9f1b">
+                                               href="https://amzn.to/2K4u60P">
                                     <Card>
                                         <CardImg top width="100%"
                                                  src="https://res.cloudinary.com/waddl/image/upload/v1525711959/waddl_goggles.png"
-                                                 alt="Card image cap"/>
+                                                 alt="Waddl Goggles"/>
                                         <CardBody>
                                             <CardText>2XU Rival Smoke</CardText>
                                             <Badge color="secondary">Goggles</Badge>
@@ -372,13 +372,205 @@ export default class Example extends React.Component {
                                     </Card>
                                 </WaddlCardLink>
                                 <WaddlCardLink target="_blank"
-                                               href="https://www.amazon.co.uk/gp/product/B01BH9972O/ref=as_li_tl?ie=UTF8&tag=waddl-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=B01BH9972O&linkId=a331312e5cda6995cc6af7af92768a34">
+                                               href="https://amzn.to/2FYgRwc">
                                     <Card>
                                         <CardImg top width="100%"
                                                  src="https://res.cloudinary.com/waddl/image/upload/v1525712114/waddl_goggles_02.png"
-                                                 alt="Card image cap"/>
+                                                 alt="Waddl Goggles"/>
                                         <CardBody>
                                             <CardText>2XU Solace</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2FXnXB7">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525892780/goggles_03.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>2XU Stealth</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2KLzWVY">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525892853/waddl_goggles_04.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Adidas Peristar Fitswim</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2G1Dxvp">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525892932/waddl_goggles_05.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Aqua Sphere Vista Swimming Mask</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2K6EFAm">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525892973/waddl_goggles_06.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Aqua Sphere Kayenne </CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2I46nRW">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893121/waddl_goggles_07.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Arena 74 Tracks</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2rxcR0j">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893212/waddl_goggles_08.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Arena Cobra Ultra Mirror</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2G0TVfR">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893399/waddl_goggles_09.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Maru Sonic Mirror</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2FZx6Jp">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893476/waddl_goggles_10.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>MP Michael Phelps XCEED</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2I2Dndk">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893548/waddl_goggles_11.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Nike Swim Performance Remora</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2IqBSFa">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893683/waddl_goggles_12.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Speedo Aquapulse Max 2 Mirror</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2I6WMFD">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893837/waddl_goggles_13.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Speedo Fastskin Speedsocket 2 Mirror</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2rtOGAY">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525893943/waddl_goggles_14.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Speedo Futura Biofuse</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2IabA6K">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525894067/waddl_goggles_15.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Speedo Speedsocket Mirror Goggles</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2IuyAR2">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525894362/waddl_goggles_16.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Zoggs Predator Flex 2.0 Polarised</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2IugJdc">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525894475/waddl_goggles_17.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Zoggs Predator Flex 2.0 Titanium</CardText>
+                                            <Badge color="secondary">Goggles</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink target="_blank"
+                                               href="https://amzn.to/2rvgDr6">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525894590/waddl_goggles_18.png"
+                                                 alt="Waddl Goggles"/>
+                                        <CardBody>
+                                            <CardText>Zoggs Predator Polarised Swimming Goggles</CardText>
                                             <Badge color="secondary">Goggles</Badge>
                                         </CardBody>
                                     </Card>

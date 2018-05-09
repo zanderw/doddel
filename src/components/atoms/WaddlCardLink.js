@@ -32,9 +32,7 @@ const WaddlCardLink = styled.a`
     }
     
     .badge {
-        background: rgba(51,51,51, .08);
-        font-size: 12px;
-        color: rgba(51,51,51,.5);
+        font-size: 11px;
         padding: 3px 6px;
     }
     
