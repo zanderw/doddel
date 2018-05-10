@@ -351,7 +351,7 @@ export default class Example extends React.Component {
                         <TabPane tabId="3">
                             <br/>
                             <Badge href="#goggles" color="secondary"> Goggles (18)</Badge> {''}
-                            <Badge href="#swimwear" color="secondary"> Swimwear (36) </Badge> {''}
+                            <Badge href="#swimwear" color="secondary"> Swimwear (27) </Badge> {''}
                             <Badge href="#swimcap" color="secondary"> Swimcap (8)</Badge> {''}
                             <Badge href="#wetsuit" color="secondary"> Wetsuit (28)</Badge> {''}
                             <Badge href="#equipment" color="secondary"> Equipment (8) </Badge>
@@ -715,14 +715,168 @@ export default class Example extends React.Component {
                             <br/>
                             <WaddlLabel>Swimwear (F)</WaddlLabel>
                             <WaddlColumns>
+                                <WaddlCardLink href="https://amzn.to/2KcGvQv" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942960/waddl_swimwear_w_01.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Adidas Women Performance Swimwear</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KRxX2s" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958202/waddl_swimwear_w_02.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Adidas Women Infinetix</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2I2qPlY" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958262/waddl_swimwear_w_03.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Aqua Sphere Women Lite</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2G3ipoD" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958303/waddl_swimwear_w_04.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Women Athletes Training Swimsuit</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IdOsEs" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958349/waddl_swimwear_w_05.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Women Polycarbonite II</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2I60Ava" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958414/waddl_swimwear_w_06.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Women Spider Booster</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2G2nldz" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958592/waddl_swimwear_w_07.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Nike Women Swimcore Solid</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2I5GNf5" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958642/waddl_swimwear_w_09.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Ignitor Placement Powerback</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2G6w8v6" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958692/waddl_swimwear_w_10.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Women Boom Allover Muscleback</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2G1ocuN" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958747/waddl_swimwear_w_11.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Women Boom Splice</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2I4waJM" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958798/waddl_swimwear_w_12.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Women Solar Fizz</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KRzc1C" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525958901/waddl_swimwear_w_13.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Women Ultra Fizz</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KNEXgC" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525959051/waddl_swimwear_w_14.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>TYR Women Oceania Trinityfit</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2I7W0bK" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525959226/waddl_swimwear_w_15.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>TYR Women Glisade Diamondfit</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
                                 <WaddlCardLink href="/">
                                     <Card>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525959707/waddl_swimwear_w_08.png"
+                                                 alt="Waddl Swimwear"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText>TYR Women Vitrum Diamond Cut </CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Womens</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
