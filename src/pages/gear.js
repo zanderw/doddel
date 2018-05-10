@@ -579,14 +579,135 @@ export default class Example extends React.Component {
                             <br/>
                             <WaddlLabel id="swimwear">Swimwear (M)</WaddlLabel>
                             <WaddlColumns>
-                                <WaddlCardLink href="/">
+                                <WaddlCardLink href="https://amzn.to/2rybUoy" target="_blank">
                                     <Card>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525941979/waddl_swimwear_m_01.png"
+                                                 alt="Waddl Swimwear"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText>Adidas Training</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Ka2Tts" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942076/waddl_swimwear_m_02.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Men's Solid Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KRqvUP" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942130/waddl_swimwear_m_03.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Men's Xpivot</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2wvlMoZ" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942185/waddl_swimwear_m_04.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Powerskin</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2rycIK6" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942272/waddl_swimwear_m_05.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Arena Powerskin R-Evo</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IdDDSR" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942321/waddl_swimwear_m_06.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>MP Aquasphere Xpresso Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2ItSKLa" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942367/waddl_swimwear_m_07.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Orca Men's Swimming Brief</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IqJpDJ" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942429/waddl_swimwear_m_08.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Men's Boom Splice Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Iw0Frl" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942522/waddl_swimwear_m_09.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Men's Endurance+ Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2rxdCXq" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942631/waddl_swimwear_m_10.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Speedo Men's Placement Panel Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KOBS05" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942772/waddl_swimwear_m_11.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Zoggs Men's Soul Jett Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Iq5PVT" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1525942874/waddl_swimwear_m_12.png"
+                                                 alt="Waddl Swimwear"/>
+                                        <CardBody>
+                                            <CardText>Zoggs Men's Blow Out Jett Jammer</CardText>
+                                            <Badge color="secondary">Swimwear</Badge> {' '} <Badge color="secondary">Mens</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
