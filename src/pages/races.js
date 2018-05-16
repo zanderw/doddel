@@ -21,7 +21,8 @@ import {
     Template,
     PageHeaderBlock,
     WaddlColumns,
-    WaddlCardLink
+    WaddlCardLink,
+    WaddlLabel
 } from '../components';
 
 // Pages
@@ -129,6 +130,11 @@ export default class Example extends React.Component {
                         </TabPane>
                         <TabPane tabId="3">
                             <br/>
+                            <Badge href="#ironman" color="secondary"> Ironman</Badge> {''}
+                            <Badge href="#ironmanhalf" color="secondary"> Ironman 70.3</Badge> {''}
+                            <br/>
+                            <br/>
+                            <WaddlLabel id="ironman">Ironman</WaddlLabel>
                             <WaddlColumns>
                                 <WaddlCardLink>
                                     <Card>
@@ -137,8 +143,21 @@ export default class Example extends React.Component {
                                                  alt="Card image cap"/>
                                         <CardBody>
                                             <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge> {''} <Badge
-                                            color="secondary">$</Badge>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="ironmanhalf">Ironman 70.3</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>

@@ -21,7 +21,8 @@ import {
     Template,
     PageHeaderBlock,
     WaddlColumns,
-    WaddlCardLink
+    WaddlCardLink,
+    WaddlLabel
 } from '../components';
 
 // Page
@@ -86,38 +87,12 @@ export default class Example extends React.Component {
                     <TabContent activeTab={this.state.activeTab} style={waddlContent}>
                         <TabPane tabId="1">
                             <br/>
-                            <WaddlColumns>
-                                <WaddlCardLink href="/">
-                                    <Card>
-                                        <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
-                                        <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge> {''}
-                                        </CardBody>
-                                    </Card>
-                                </WaddlCardLink>
-                            </WaddlColumns>
-                        </TabPane>
-                        <TabPane tabId="2">
+                            <Badge href="#before" color="secondary"> Before</Badge> {''}
+                            <Badge href="#during" color="secondary"> During</Badge> {''}
+                            <Badge href="#after" color="secondary"> After</Badge> {''}
                             <br/>
-                            <WaddlColumns>
-                                <WaddlCardLink href="/">
-                                    <Card>
-                                        <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
-                                        <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge> {''}
-                                        </CardBody>
-                                    </Card>
-                                </WaddlCardLink>
-                            </WaddlColumns>
-                        </TabPane>
-                        <TabPane tabId="3">
                             <br/>
+                            <WaddlLabel id="before">Before</WaddlLabel>
                             <WaddlColumns>
                                 <WaddlCardLink>
                                     <Card>
@@ -126,7 +101,135 @@ export default class Example extends React.Component {
                                                  alt="Card image cap"/>
                                         <CardBody>
                                             <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge> {''}
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="during">During</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="after">After</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                        </TabPane>
+                        <TabPane tabId="2">
+                            <br/>
+                            <Badge href="#before" color="secondary"> Before</Badge> {''}
+                            <Badge href="#during" color="secondary"> During</Badge> {''}
+                            <Badge href="#after" color="secondary"> After</Badge> {''}
+                            <br/>
+                            <br/>
+                            <WaddlLabel id="before">Before</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="during">During</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="after">After</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                        </TabPane>
+                        <TabPane tabId="3">
+                            <br/>
+                            <Badge href="#before" color="secondary"> Before</Badge> {''}
+                            <Badge href="#during" color="secondary"> During</Badge> {''}
+                            <Badge href="#after" color="secondary"> After</Badge> {''}
+                            <br/>
+                            <br/>
+                            <WaddlLabel id="before">Before</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="during">During</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="after">After</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>

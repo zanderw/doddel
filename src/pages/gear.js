@@ -88,7 +88,8 @@ export default class Example extends React.Component {
                     <TabContent activeTab={this.state.activeTab} style={waddlContent}>
                         <TabPane tabId="1">
                             <br/>
-                            <Badge href="#bicycles" color="secondary"> Bicycles</Badge> {''}
+                            <Badge href="#bicycles" color="secondary"> Bikes</Badge> {''}
+                            <Badge href="#wheels" color="secondary"> Wheels</Badge> {''}
                             <Badge href="#cleats" color="secondary">Cleats</Badge> {''}
                             <Badge href="#jerseys" color="secondary"> Jerseys</Badge> {''}
                             <Badge href="#helmets" color="secondary"> Helmets</Badge> {''}
@@ -97,7 +98,49 @@ export default class Example extends React.Component {
                             <Badge href="#cycleEquipment" color="secondary">Equipment</Badge>
                             <br/>
                             <br/>
-                            <WaddlLabel id="bicycles">Bicycles</WaddlLabel>
+                            <WaddlLabel id="bicycles">Road Bikes</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel>TT Bikes</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel>Tri Bikes</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink>
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Name</CardText>
+                                            <Badge color="secondary">New</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="wheels">Wheels</WaddlLabel>
                             <WaddlColumns>
                                 <WaddlCardLink>
                                     <Card>
@@ -713,7 +756,7 @@ export default class Example extends React.Component {
                                 </WaddlCardLink>
                             </WaddlColumns>
                             <br/>
-                            <WaddlLabel>Swimwear (F)</WaddlLabel>
+                            <WaddlLabel>Swimwear (W)</WaddlLabel>
                             <WaddlColumns>
                                 <WaddlCardLink href="https://amzn.to/2KcGvQv" target="_blank">
                                     <Card>
