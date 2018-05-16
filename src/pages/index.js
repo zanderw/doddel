@@ -44,8 +44,7 @@ const IndexPage = () => (
                 <Row style={heroBlock}>
                     <Col xs="12" sm="12" md="5">
                         <h1><strong>Handy Endurance Resources </strong></h1>
-                        <p>Gifted by the world's most generous community of Doddel athletes who love to run, swim and cycle
-                            together. Whatever the weather! <Badge color="success">OH YE!</Badge></p>
+                        <p>Gifted by the world's most generous community of Doddel athletes <Badge color="success">OH YE!</Badge></p>
                         <Link to="/share">
                             <Button color="primary">Contribute to Doddel!</Button>
                         </Link>
@@ -377,7 +376,7 @@ const centerBlock = {
 
 const shareIcon = {
     width: '100%',
-    maxWidth: '600px',
+    maxWidth: '550px',
     margin: '0 auto',
     marginTop: '30px'
 };
