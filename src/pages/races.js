@@ -134,21 +134,30 @@ export default class Example extends React.Component {
                             <Badge href="#ironmanhalf" color="secondary"> Ironman 70.3</Badge> {''}
                             <br/>
                             <br/>
-                            <WaddlLabel id="ironman">Ironman</WaddlLabel>
+                            <WaddlLabel id="ironman">June</WaddlLabel>
                             <WaddlColumns>
-                                <WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
                                     <Card>
-                                        <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
+                                            <CardImg top width="100%"
+                                                     src="https://res.cloudinary.com/waddl/image/upload/v1527699102/Screen_Shot_2018-05-30_at_17.48.48.png"
+                                                     alt="Tri"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText><strong>Stewartby Lake Triathlon</strong></CardText>
+                                            <CardText>1st July</CardText>
+                                            <Badge color="secondary">Half</Badge> {' '} <Badge color="secondary">$$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="http://islandraces.com/middle-distance-triathlon-2018-the-islander/">
+                                    <Card>
+                                        <CardBody>
+                                            <CardText>The Islander</CardText>
+                                            <Badge color="secondary">Half</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
                             </WaddlColumns>
-                            <WaddlLabel id="ironmanhalf">Ironman 70.3</WaddlLabel>
+                            <WaddlLabel id="ironmanhalf">February</WaddlLabel>
                             <WaddlColumns>
                                 <WaddlCardLink>
                                     <Card>

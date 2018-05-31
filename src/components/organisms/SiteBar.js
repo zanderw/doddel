@@ -80,7 +80,7 @@ const SiteBar = styled.div `
 `;
 
  const Logo = styled.img`
-   width: 75px;
+   width: 120px;
    height: auto;
  `;
 

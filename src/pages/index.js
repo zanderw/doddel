@@ -26,7 +26,8 @@ import DoddelHeroImage from '../assets/images/doddel_hero.svg'
 import {
     Template,
     WaddlColumns,
-    WaddlCardLink
+    WaddlCardLink,
+    WaddlLabel
 } from '../components';
 
 // Page
@@ -42,20 +43,8 @@ const IndexPage = () => (
                     </Col>
                 </Row>
                 <Row style={heroBlock}>
-                    <Col xs="12" sm="12" md="5">
-                        <h1><strong>Handy Endurance Resources </strong></h1>
-                        <p>Gifted by the world's most generous community of Doddel athletes <Badge color="success">OH YE!</Badge></p>
-                        <Link to="/share">
-                            <Button color="primary">Contribute to Doddel!</Button>
-                        </Link>
-                    </Col>
-                    <Col xs="12" sm="12" md="7">
-                        <img src={DoddelHeroImage} style={shareIcon}/>
-                    </Col>
-                </Row>
-                <Row style={heroBlock}>
                     <Col xs="12">
-                        <h6><strong>Doddel Resources  </strong> <Badge color="success">ENJOY!</Badge></h6>
+                        <WaddlLabel id="goggles">Super handy endurance resources</WaddlLabel>
                         <br/>
                     </Col>
                     <Col xs="6" md="2" lg="2">
@@ -180,78 +169,41 @@ const IndexPage = () => (
                     </Col>
                 </Row>
                 <Row style={heroBlock}>
-                    <Col xs="12">
-                        <h6><strong>Trusted by 10,000 Awesome athletes around the world <Badge color="success">BIG HUG</Badge></strong></h6>
+                    <Col xs="12" sm="12" md="5">
                         <br/>
+                        <br/>
+                        <h3><strong>Find everything endurance in seconds not hours</strong></h3>
+                        <p>Gifted by the world's most generous community of athletes who just love to sweat <Badge
+                            color="success">Thanks!</Badge></p>
+                        <span><i><strong>Trending right now:</strong></i></span>
+                        <Link to="/gear">
+                            <Button color="link" size="md">Gear</Button>
+                        </Link>
+                        <Link to="/nutrition">
+                            <Button color="link" size="md">Nutrition</Button>
+                        </Link>
+                        <Link to="/races">
+                            <Button color="link" size="md">Races</Button>
+                        </Link>
+                    </Col>
+                    <Col xs="12" sm="12" md="7">
+                        <img src={DoddelHeroImage} style={shareIcon}/>
+                    </Col>
+                </Row>
+                <Row style={heroBlock}>
+                    <Col md="12">
+                        <WaddlLabel id="goggles">Popular Resources</WaddlLabel>
                     </Col>
                     <WaddlColumns>
-                        <WaddlCardLink>
+                        <WaddlCardLink target="_blank"
+                                       href="https://amzn.to/2K4u60P">
                             <Card>
                                 <CardImg top width="100%"
-                                         src="https://res.cloudinary.com/waddl/image/upload/v1526405512/testimonial_04.png"
-                                         alt="Card image cap"/>
+                                         src="https://res.cloudinary.com/waddl/image/upload/v1525711959/waddl_goggles.png"
+                                         alt="Waddl Goggles"/>
                                 <CardBody>
-                                    <CardText>"Doddel saves me hours. More time to train...in the rain"</CardText>
-                                    <Badge color="secondary">Swimrunner</Badge> {' '}  <Badge color="secondary">Marathon Runner</Badge>
-                                    <br />
-                                    <br />
-                                    <CardText><strong>Maria</strong> UK</CardText>
-                                </CardBody>
-                            </Card>
-                        </WaddlCardLink>
-                        <WaddlCardLink>
-                            <Card>
-                                <CardImg top width="100%"
-                                         src="https://res.cloudinary.com/waddl/image/upload/v1526405345/testimonial_03.png"
-                                         alt="Card image cap"/>
-                                <CardBody>
-                                    <CardText>"Doddel just does the job. It's an all-in-one tool for athletes"</CardText>
-                                    <Badge color="secondary">Cyclist</Badge> {' '} <Badge color="secondary">Triathlete</Badge>
-                                    <br />
-                                    <br />
-                                    <CardText><strong>Fernando</strong> Spain</CardText>
-                                </CardBody>
-                            </Card>
-                        </WaddlCardLink>
-                        <WaddlCardLink>
-                            <Card>
-                                <CardImg top width="100%"
-                                         src="https://res.cloudinary.com/waddl/image/upload/v1526405086/testimonial_02.png"
-                                         alt="Card image cap"/>
-                                <CardBody>
-                                    <CardText>"Before Doddel, finding gear required more endurance than a race. Thanks!"</CardText>
-                                    <Badge color="secondary">Ironman</Badge> {' '}  <Badge color="secondary">Swimmer</Badge>
-                                    <br />
-                                    <br />
-                                    <CardText><strong>Amy</strong> USA</CardText>
-                                </CardBody>
-                            </Card>
-                        </WaddlCardLink>
-                        <WaddlCardLink>
-                            <Card>
-                                <CardImg top width="100%"
-                                         src="https://res.cloudinary.com/waddl/image/upload/v1526404993/testimonial_01.png"
-                                         alt="Card image cap"/>
-                                <CardBody>
-                                    <CardText>"Simple and easy peasy. I spend hours browsing Doddel for fun"</CardText>
-                                    <Badge color="secondary">Ultra Runner</Badge>
-                                    <br />
-                                    <br />
-                                    <CardText><strong>Dave</strong> UK</CardText>
-                                </CardBody>
-                            </Card>
-                        </WaddlCardLink>
-                        <WaddlCardLink>
-                            <Card>
-                                <CardImg top width="100%"
-                                         src="https://res.cloudinary.com/waddl/image/upload/v1526405785/testimonial_05.png"
-                                         alt="Card image cap"/>
-                                <CardBody>
-                                    <CardText>"The best endurance tool I have used. Obsessed with Doddel!"</CardText>
-                                    <Badge color="secondary">TT</Badge> {' '} <Badge color="secondary">Triathlete</Badge>
-                                    <br />
-                                    <br />
-                                    <CardText><strong>Lucy</strong> Aus</CardText>
+                                    <CardText>2XU Rival Smoke</CardText>
+                                    <Badge color="secondary">Goggles</Badge>
                                 </CardBody>
                             </Card>
                         </WaddlCardLink>
@@ -376,7 +328,7 @@ const centerBlock = {
 
 const shareIcon = {
     width: '100%',
-    maxWidth: '550px',
+    maxWidth: '600px',
     margin: '0 auto',
     marginTop: '30px'
 };

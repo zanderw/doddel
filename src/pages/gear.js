@@ -10,6 +10,8 @@ import {
     Nav,
     NavItem,
     NavLink,
+    Collapse,
+    Button,
     Card,
     CardImg,
     CardBody,
@@ -927,14 +929,102 @@ export default class Example extends React.Component {
                             <br/>
                             <WaddlLabel id="swimcap">Swimcap</WaddlLabel>
                             <WaddlColumns>
-                                <WaddlCardLink href="/">
+                                <WaddlCardLink href="https://amzn.to/2kcMdqh" target="_blank">
                                     <Card>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461221/waddl_swimcap_01.png"
                                                  alt="Card image cap"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText>2XU Mens Neoprene Swim Cap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2ITgqc9" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461221/waddl_swimcap_02.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Aqua Sphere Aqua Hoody</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IEnNVl" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461222/waddl_swimcap_04.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Blueseventy mens skull jammer</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2s2BHFC" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461221/waddl_swimcap_05.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>NCW Cornwall Open Water Swim Cap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IDUqyD" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461221/waddl_swimcap_06.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Orca Thermal Neoprene Swimcap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2khtcTz" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461222/waddl_swimcap_07.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>TYR Thermal Swimcap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2x1V1Zl" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461626/waddl_swimcap_10.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Zone 3 Neoprene Swim Cap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2khtFFj" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461222/waddl_swimcap_08.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Zone 3 Neoprene Strapless Swim Cap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Izz7SJ" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526461626/waddl_swimcap_09.png"
+                                                 alt="Card image cap"/>
+                                        <CardBody>
+                                            <CardText>Zoggs Silicone Swimcap</CardText>
+                                            <Badge color="secondary">Swimcap</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
@@ -942,14 +1032,171 @@ export default class Example extends React.Component {
                             <br/>
                             <WaddlLabel id="wetsuit">Wetsuit (M)</WaddlLabel>
                             <WaddlColumns>
-                                <WaddlCardLink href="/">
+                                <WaddlCardLink href="https://amzn.to/2IDySCb" target="_blank">
                                     <Card>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575627/waddl_wetsuit_01.png"
+                                                 alt="doddel wetsuit"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText>2XU A:1 Active</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2ICPBtm" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575627/waddl_wetsuit_02.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>2XU P:2 Propel</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2GGSnrO" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_03.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>2XU Propel Pro</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IZsRDg" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_04.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Aqua Sphere Racer</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2LhQxRu" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575627/waddl_wetsuit_05.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Blueseventy Fusion Wetsuit</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IWRtwb" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575627/waddl_wetsuit_06.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Blueseventy Helix Swimskin</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IXPNm5" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575627/waddl_wetsuit_07.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Head Black Marlin</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KKasHw" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_09.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Huub Aerious II 3.5</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2x0yM68" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_09.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Huub Archimedes III 3:5</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IzovTL" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_10.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Orca Open Water</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2ICEVqF" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_11.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Orca S6</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2kbV6k1" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_12.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Sailfish Attack</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Lj8T4F" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_15.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Sailfish Ultimate IPS</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2KJ8VSg" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526575628/waddl_wetsuit_16.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Zone 3 Aspire</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Mens</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
@@ -957,28 +1204,123 @@ export default class Example extends React.Component {
                             <br/>
                             <WaddlLabel>Wetsuit (F)</WaddlLabel>
                             <WaddlColumns>
-                                <WaddlCardLink href="/">
+                                <WaddlCardLink href="https://amzn.to/2IxcWMS" target="_blank">
                                     <Card>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931944/waddl_wetsuit_w_01.png"
+                                                 alt="doddel wetsuit"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText>2XU P:1 Propel</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
-                            </WaddlColumns>
-                            <WaddlLabel id="equipment">Training Equipment</WaddlLabel>
-                            <WaddlColumns>
-                                <WaddlCardLink href="/">
+                                <WaddlCardLink href="https://amzn.to/2IVgaJA" target="_blank">
                                     <Card>
                                         <CardImg top width="100%"
-                                                 src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-                                                 alt="Card image cap"/>
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_02.png"
+                                                 alt="doddel wetsuit"/>
                                         <CardBody>
-                                            <CardText>Name</CardText>
-                                            <Badge color="secondary">New</Badge>
+                                            <CardText>Aqua Sphere Challenger </CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2J0rg04" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_03.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Aqua Sphere Pursuit</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2LjwbaK" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_04.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Blueseventy Helix</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2rYwtvp" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_05.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Head Black Marlin </CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2kfeVqP" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_06.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Huub Aegus II</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IAPM8B" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_07.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Huub Axiom</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Li9SlL" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_08.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Huub Womens Arara 3.5</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2IBIHEK" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_09.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Orca Open Water</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://amzn.to/2Izx6G9" target="_blank">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1526931945/waddl_wetsuit_w_10.png"
+                                                 alt="doddel wetsuit"/>
+                                        <CardBody>
+                                            <CardText>Orca Predator</CardText>
+                                            <Badge color="secondary">Wetsuit</Badge> {' '}
+                                            <Badge color="secondary">Womens</Badge>
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
