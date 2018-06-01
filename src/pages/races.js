@@ -117,6 +117,7 @@ export default class Example extends React.Component {
                             <Badge href="#july" color="secondary"> July</Badge> {''}
                             <Badge href="#august" color="secondary"> August </Badge> {''}
                             <Badge href="#september" color="secondary"> September </Badge> {''}
+                            <Badge href="#october" color="secondary"> October </Badge> {''}
                             <br/>
                             <br/>
                             <WaddlLabel id="july">July</WaddlLabel>
@@ -237,6 +238,375 @@ export default class Example extends React.Component {
                                         <CardBody>
                                             <CardText><strong>SCOTT Snowdonia Trail Marathon</strong></CardText>
                                             <CardText>15th July</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="august">August</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864504/Screen_Shot_2018-06-01_at_15.48.01.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Phoenix Summer Marathon</strong></CardText>
+                                            <CardText>4th August</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864215/Screen_Shot_2018-06-01_at_15.42.46.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Gloucester Marathon</strong></CardText>
+                                            <CardText>5th August</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864302/Screen_Shot_2018-06-01_at_15.44.34.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Thames Meander Marathon</strong></CardText>
+                                            <CardText>11th August</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864381/Screen_Shot_2018-06-01_at_15.45.55.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Owler Marathon</strong></CardText>
+                                            <CardText>12th August</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864616/Screen_Shot_2018-06-01_at_15.49.49.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Vanguard Way Marathon</strong></CardText>
+                                            <CardText>5th August</CardText>
+                                            <Badge color="secondary">Half</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864716/Screen_Shot_2018-06-01_at_15.51.25.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Isle of Man Marathon</strong></CardText>
+                                            <CardText>12th August</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527864842/Screen_Shot_2018-06-01_at_15.53.31.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Bath Two Tunnels Railway Races</strong></CardText>
+                                            <CardText>19th August</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="september">September</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527865806/Screen_Shot_2018-06-01_at_16.09.23.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Surrey Bacchus Marathon</strong></CardText>
+                                            <CardText>9th September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527865295/Screen_Shot_2018-06-01_at_16.01.12.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Running Grandprix Goodwood Motor Circuit</strong></CardText>
+                                            <CardText>16th September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527865422/Screen_Shot_2018-06-01_at_16.03.20.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Richmond Marathon</strong></CardText>
+                                            <CardText>16th September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527865550/Screen_Shot_2018-06-01_at_16.05.23.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Loch Ness Marathon</strong></CardText>
+                                            <CardText>23rd September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527865683/Screen_Shot_2018-06-01_at_16.07.37.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Glencoe Marathon</strong></CardText>
+                                            <CardText>30th September</CardText>
+                                            <Badge color="secondary">Half</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527865925/Screen_Shot_2018-06-01_at_16.11.40.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>New Forest Marathon</strong></CardText>
+                                            <CardText>9th September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866083/Screen_Shot_2018-06-01_at_16.14.21.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Lancaster Marathon</strong></CardText>
+                                            <CardText>16th September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866198/Screen_Shot_2018-06-01_at_16.16.02.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Wimbledon Marathon</strong></CardText>
+                                            <CardText>22nd September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866325/Screen_Shot_2018-06-01_at_16.18.11.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Causeway Coast Marathon</strong></CardText>
+                                            <CardText>22nd September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866558/Screen_Shot_2018-06-01_at_16.21.26.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Monster Marathon</strong></CardText>
+                                            <CardText>30th September</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                            </WaddlColumns>
+                            <WaddlLabel id="october">October</WaddlLabel>
+                            <WaddlColumns>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527867367/Screen_Shot_2018-06-01_at_16.35.39.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Atlantic Coast Challenge</strong></CardText>
+                                            <CardText>5th - 7th October</CardText>
+                                            <Badge color="secondary">Half</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866865/Screen_Shot_2018-06-01_at_16.26.48.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Bournemouth Marathon</strong></CardText>
+                                            <CardText>7th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866948/Screen_Shot_2018-06-01_at_16.28.35.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Windsor Marathon</strong></CardText>
+                                            <CardText>7th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527867132/Screen_Shot_2018-06-01_at_16.31.43.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Running Grand Prix Bedford</strong></CardText>
+                                            <CardText>7th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527867486/Screen_Shot_2018-06-01_at_16.37.42.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Chester Marathon</strong></CardText>
+                                            <CardText>7th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527867626/Screen_Shot_2018-06-01_at_16.40.01.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Clarendon Marathon</strong></CardText>
+                                            <CardText>7th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527867257/Screen_Shot_2018-06-01_at_16.33.54.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Yorkshire Marathon</strong></CardText>
+                                            <CardText>14th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527867815/Screen_Shot_2018-06-01_at_16.43.13.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Eden Marathon</strong></CardText>
+                                            <CardText>14th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527866325/Screen_Shot_2018-06-01_at_16.18.11.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Great Langdale Marathon</strong></CardText>
+                                            <CardText>20th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527868037/Screen_Shot_2018-06-01_at_16.46.39.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>The Dramathon</strong></CardText>
+                                            <CardText>20th October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527868188/Screen_Shot_2018-06-01_at_16.49.09.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>The Chelmsford Marathon</strong></CardText>
+                                            <CardText>21st October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527868268/Screen_Shot_2018-06-01_at_16.50.45.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Abingdon Marathon</strong></CardText>
+                                            <CardText>21st October</CardText>
+                                            <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
+                                        </CardBody>
+                                    </Card>
+                                </WaddlCardLink>
+                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                    <Card>
+                                        <CardImg top width="100%"
+                                                 src="https://res.cloudinary.com/waddl/image/upload/v1527868268/Screen_Shot_2018-06-01_at_16.50.45.png"
+                                                 alt="Tri"/>
+                                        <CardBody>
+                                            <CardText><strong>Beachy Head Marathon</strong></CardText>
+                                            <CardText>27th October</CardText>
                                             <Badge color="secondary">Marathon</Badge> {' '} <Badge color="secondary">$</Badge>
                                         </CardBody>
                                     </Card>
