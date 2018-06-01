@@ -5,9 +5,6 @@ import WaddlLabel from "./atoms/WaddlLabel"
 import WaddlCardLink from "./atoms/WaddlCardLink"
 // Molecules
 
-// Organisms
-import Footer from "./organisms/Footer";
-import Header from "./organisms/Header";
 
 // Templates
 import Template from "./templates/Template";
@@ -21,10 +18,6 @@ const components = {
     //Columns
     WaddlColumns,
     WaddlCardLink,
-
-
-    Footer,
-    Header,
 
     Template
 };

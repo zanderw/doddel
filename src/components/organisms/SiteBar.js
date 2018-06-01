@@ -46,11 +46,11 @@ export default class ReactNavbar extends React.Component {
                     <Logo src={waddlLogo}/>
                 </Link>
                 <Link style={floatRight} to="/share">
-                    <Button color="primary" size="sm">Share with friends</Button>
+                    <Button color="primary" size="sm">Share...</Button>
                 </Link>
                 <Dropdown style={floatRight} group isOpen={this.state.dropdownOpen} size="sm" toggle={this.toggle}>
                     <DropdownToggle style={dropdownSecondary} caret>
-                        Help
+                        More
                     </DropdownToggle>
                     <DropdownMenu right>
                         <Link to='our-story'>
