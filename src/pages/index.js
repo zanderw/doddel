@@ -36,10 +36,31 @@ const IndexPage = () => (
             <Container>
                 <Row style={headerBlock}>
                     <Col sm="12" md={{size: 8, offset: 2}}>
-                        <Alert color="secondary">
-                            <img src={waddlStar} style={imageIcon}/> Run? Cycle? Swim? <a href="#" className="alert-link">Get
-                            weekly Doddel Deals!</a>
+                        <Alert color="primary">
+                            <img src={waddlStar} style={imageIcon}/> Run? Cycle? Swim? <a href="#" className="alert-link">Become a Doddeler!</a>
                         </Alert>
+                    </Col>
+                </Row>
+                <Row style={heroBlock}>
+                    <Col xs="12" sm="12" md="5">
+                        <br/>
+                        <br/>
+                        <h3><strong>Find everything ENDURANCE in one super handy place</strong></h3>
+                        <p>Gifted by the world's most generous community of amatuers who LOVE to sweat and HATE trawling through tonnes of different websites  <Badge
+                            color="success">Doddelers!</Badge></p>
+                        <span><i><strong>Trending right now:</strong></i></span>
+                        <Link to="/gear">
+                            <Button color="link" className="btn-link" size="md">Gear</Button>
+                        </Link>
+                        <Link to="/nutrition">
+                            <Button color="link"  className="btn-link" size="md">Nutrition</Button>
+                        </Link>
+                        <Link to="/races">
+                            <Button color="link" className="btn-link" size="md">Races</Button>
+                        </Link>
+                    </Col>
+                    <Col xs="12" sm="12" md="7">
+                        <img src={DoddelHeroImage} style={shareIcon}/>
                     </Col>
                 </Row>
                 <Row style={heroBlock}>
@@ -166,28 +187,6 @@ const IndexPage = () => (
                                 <SecondaryBlockButton>+ Add </SecondaryBlockButton>
                             </Link>
                         </div>
-                    </Col>
-                </Row>
-                <Row style={heroBlock}>
-                    <Col xs="12" sm="12" md="5">
-                        <br/>
-                        <br/>
-                        <h3><strong>Find everything endurance in seconds not hours</strong></h3>
-                        <p>Gifted by the world's most generous community of athletes who just love to sweat <Badge
-                            color="success">Thanks!</Badge></p>
-                        <span><i><strong>Trending right now:</strong></i></span>
-                        <Link to="/gear">
-                            <Button color="link" size="md">Gear</Button>
-                        </Link>
-                        <Link to="/nutrition">
-                            <Button color="link" size="md">Nutrition</Button>
-                        </Link>
-                        <Link to="/races">
-                            <Button color="link" size="md">Races</Button>
-                        </Link>
-                    </Col>
-                    <Col xs="12" sm="12" md="7">
-                        <img src={DoddelHeroImage} style={shareIcon}/>
                     </Col>
                 </Row>
                 <Row style={heroBlock}>

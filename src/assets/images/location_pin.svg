@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 86</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,24.24 C12,13.06 20.954,4 32,4 C43.044,4 52,13.06 52,24.24 C52,35.42 32,58 32,58 C32,58 12,35.42 12,24.24 L12,24.24 Z M32,0 C18.744,0 8,10.74 8,24 C8,37.26 32,64 32,64 C32,64 56,37.26 56,24 C56,10.74 45.254,0 32,0 L32,0 Z M56,40 L52,40 L58,60 L44,60 L40,64 L64,64 L56,40 L56,40 Z M32,28 C28.686,28 26,25.298 26,22 C26,18.68 28.686,16 32,16 C35.312,16 38,18.68 38,22 C38,25.298 35.312,28 32,28 L32,28 Z M32,12 C26.476,12 22,16.48 22,22 C22,27.52 26.476,32 32,32 C37.524,32 42,27.52 42,22 C42,16.48 37.524,12 32,12 L32,12 Z M6,60 L12,40 L8,40 L0,64 L24,64 L20,60 L6,60 L6,60 Z" id="Fill-86" fill="#373B39"></path>
+    </g>
+</svg>

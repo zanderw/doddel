@@ -857,7 +857,7 @@ export default class Example extends React.Component {
                             <br/>
                             <WaddlLabel id="july">July</WaddlLabel>
                             <WaddlColumns>
-                                <WaddlCardLink href="https://www.activetrainingworld.co.uk/events/2018/06/17/stewartby_lake_triathlon">
+                                <WaddlCardLink href="/races/tri/outlaw-half">
                                     <Card>
                                             <CardImg top width="100%"
                                                      src="https://res.cloudinary.com/waddl/image/upload/v1527699102/Screen_Shot_2018-05-30_at_17.48.48.png"
@@ -869,7 +869,7 @@ export default class Example extends React.Component {
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
-                                <WaddlCardLink href="http://islandraces.com/middle-distance-triathlon-2018-the-islander/">
+                                <WaddlCardLink  href="/races/tri/half-ironman-edinburgh">
                                     <Card>
                                         <CardImg top width="100%"
                                                  src="https://res.cloudinary.com/waddl/image/upload/v1527847553/Screen_Shot_2018-06-01_at_11.02.43.png"
@@ -881,7 +881,7 @@ export default class Example extends React.Component {
                                         </CardBody>
                                     </Card>
                                 </WaddlCardLink>
-                                <WaddlCardLink href="http://islandraces.com/middle-distance-triathlon-2018-the-islander/">
+                                <WaddlCardLink  href="/races/tri/weymouth-middle-distance">
                                     <Card>
                                         <CardImg top width="100%"
                                                  src="https://res.cloudinary.com/waddl/image/upload/v1527847925/Screen_Shot_2018-06-01_at_11.08.28.png"
