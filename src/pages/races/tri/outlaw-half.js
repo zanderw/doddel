@@ -12,7 +12,8 @@ import {
     Card,
     CardImg,
     Breadcrumb,
-    BreadcrumbItem
+    BreadcrumbItem,
+    Progress
 } from 'reactstrap'
 
 //Images
@@ -38,14 +39,14 @@ const TriPage = () => (
                     <Col md="12">
                         <br />
                         <Breadcrumb style={breadCrumbBlock}>
-                            <BreadcrumbItem><Link href="#">Races</Link></BreadcrumbItem>
+                            <BreadcrumbItem><Link to="/races/">Races</Link></BreadcrumbItem>
                             <BreadcrumbItem active>Tri</BreadcrumbItem>
                         </Breadcrumb>
                     </Col>
                 </Row>
                 <Row style={headerBlock}>
                     <Col md="12">
-                        <RaceHeroBlock></RaceHeroBlock>
+                        <Progress value={75}>You're almost there!</Progress>
                     </Col>
                 </Row>
                 <Row>
@@ -106,11 +107,9 @@ const TriPage = () => (
 //Styled Components
 
 const RaceHeroBlock = styled.div`
-    height: 100px;
+        height: 5px;
     border-radius: 10px;
-    background-image: url('https://res.cloudinary.com/waddl/image/upload/v1528797130/tri.svg');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(to bottom right, #F03F6D , #FCB405);
 `;
 // Inline Styles
 const headerBlock = {

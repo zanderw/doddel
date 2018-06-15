@@ -34,19 +34,11 @@ import {
 const IndexPage = () => (
         <Template pageType="home">
             <Container>
-                <Row style={headerBlock}>
-                    <Col sm="12" md={{size: 8, offset: 2}}>
-                        <Alert color="primary">
-                            <img src={waddlStar} style={imageIcon}/> Run? Cycle? Swim? <a href="#" className="alert-link">Become a Doddeler!</a>
-                        </Alert>
-                    </Col>
-                </Row>
                 <Row style={heroBlock}>
                     <Col xs="12" sm="12" md="5">
                         <br/>
-                        <br/>
-                        <h3><strong>Find everything ENDURANCE in one super handy place</strong></h3>
-                        <p>Gifted by the world's most generous community of amatuers who LOVE to sweat and HATE trawling through tonnes of different websites  <Badge
+                        <h3><strong>Find everything <strong>ENDURANCE</strong> in <strong>ONE</strong> handy place</strong></h3>
+                        <p>Gifted by the world's most generous community of amatuers who are fed up of trawling through tonnes of different websites  <Badge
                             color="success">Doddelers!</Badge></p>
                         <span><i><strong>Trending right now:</strong></i></span>
                         <Link to="/gear">
@@ -329,7 +321,7 @@ const shareIcon = {
     width: '100%',
     maxWidth: '600px',
     margin: '0 auto',
-    marginTop: '30px'
+    marginTop: '20px'
 };
 
 export default IndexPage

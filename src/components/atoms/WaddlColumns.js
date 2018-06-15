@@ -16,7 +16,7 @@ const WaddlColumns = styled.div`
     `};
     
      ${media.tablet`
-        column-count: 4;
+        column-count: 3;
     `};
     
      ${media.phablet`
