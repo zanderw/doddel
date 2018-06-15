@@ -37,18 +37,20 @@ const IndexPage = () => (
                 <Row style={heroBlock}>
                     <Col xs="12" sm="12" md="5">
                         <br/>
-                        <h3><strong>Find everything <strong>ENDURANCE</strong> in <strong>ONE</strong> handy place</strong></h3>
-                        <p>Gifted by the world's most generous community of amatuers who are fed up of trawling through tonnes of different websites  <Badge
-                            color="success">Doddelers!</Badge></p>
+                        <h3><strong>Find everything <strong>ENDURANCE</strong> in <strong>ONE</strong> handy place</strong>
+                        </h3>
+                        <p>Gifted by the world's most generous community of amatuers who are fed up of trawling through
+                            tonnes of different websites <Badge
+                                color="success">Doddelers!</Badge></p>
                         <span><i><strong>Trending right now:</strong></i></span>
                         <Link to="/gear">
-                            <Button color="link" className="btn-link" size="md">Gear</Button>
+                            <Button color="link" className="btn-link" size="md"><strong>Gear</strong></Button>
                         </Link>
                         <Link to="/nutrition">
-                            <Button color="link"  className="btn-link" size="md">Nutrition</Button>
+                            <Button color="link" className="btn-link" size="md"><strong>Nutrition</strong></Button>
                         </Link>
                         <Link to="/races">
-                            <Button color="link" className="btn-link" size="md">Races</Button>
+                            <Button color="link" className="btn-link" size="md"><strong>Races</strong></Button>
                         </Link>
                     </Col>
                     <Col xs="12" sm="12" md="7">
@@ -199,6 +201,18 @@ const IndexPage = () => (
                             </Card>
                         </WaddlCardLink>
                     </WaddlColumns>
+                </Row>
+                <Row style={heroBlock}>
+                    <Col sm="12" md={{ size: 8, offset: 2 }}>
+                        <div style={centerBlock}>
+                            <h2><strong>Tired of SEARCHING?</strong></h2>
+                            <p>Same! Sooo why not get weekly Endurance events that match your budget, athleticism and...ambition personally sent to you. No sweat!</p>
+                            <br/>
+                            <Link className='btn btn-primary btn-lg'>
+                                Get Weekly Endurance Suggestions!
+                            </Link>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </Template>

@@ -8,7 +8,6 @@ import SiteBar from "../organisms/SiteBar";
 import SideBar from "../organisms/SideBar";
 
 
-
 export default class Template extends React.PureComponent {
     static propTypes = {
         pageType: PropTypes.string
