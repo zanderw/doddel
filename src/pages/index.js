@@ -37,11 +37,9 @@ const IndexPage = () => (
                 <Row style={heroBlock}>
                     <Col xs="12" sm="12" md="5">
                         <br/>
-                        <h3><strong>Find everything <strong>ENDURANCE</strong> in <strong>ONE</strong> handy place</strong>
-                        </h3>
-                        <p>Gifted by the world's most generous community of amatuers who are fed up of trawling through
-                            tonnes of different websites <Badge
-                                color="success">Doddelers!</Badge></p>
+                        <h2><strong>Everything <strong>ENDURANCE</strong> in <strong>ONE</strong> handy place</strong>
+                        </h2>
+                        <p>No more plodding through hundreds of sites to find what you need...</p>
                         <span><i><strong>Trending right now:</strong></i></span>
                         <Link to="/gear">
                             <Button color="link" className="btn-link" size="md"><strong>Gear</strong></Button>
@@ -184,29 +182,10 @@ const IndexPage = () => (
                     </Col>
                 </Row>
                 <Row style={heroBlock}>
-                    <Col md="12">
-                        <WaddlLabel id="goggles">Popular Resources</WaddlLabel>
-                    </Col>
-                    <WaddlColumns>
-                        <WaddlCardLink target="_blank"
-                                       href="https://amzn.to/2K4u60P">
-                            <Card>
-                                <CardImg top width="100%"
-                                         src="https://res.cloudinary.com/waddl/image/upload/v1525711959/waddl_goggles.png"
-                                         alt="Waddl Goggles"/>
-                                <CardBody>
-                                    <CardText>2XU Rival Smoke</CardText>
-                                    <Badge color="secondary">Goggles</Badge>
-                                </CardBody>
-                            </Card>
-                        </WaddlCardLink>
-                    </WaddlColumns>
-                </Row>
-                <Row style={heroBlock}>
                     <Col sm="12" md={{ size: 8, offset: 2 }}>
                         <div style={centerBlock}>
-                            <h2><strong>Tired of SEARCHING?</strong></h2>
-                            <p>Same! Sooo why not get weekly Endurance events that match your budget, athleticism and...ambition personally sent to you. No sweat!</p>
+                            <h2><strong>Tired of endless SEARCHING?</strong></h2>
+                            <p>Same! Sooo why not get weekly endurance events that match your budget, athleticism and...ambition personally sent to you. No sweat!</p>
                             <br/>
                             <Link className='btn btn-primary btn-lg'>
                                 Get Weekly Endurance Suggestions!

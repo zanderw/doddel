@@ -46,7 +46,7 @@ export default class ReactNavbar extends React.Component {
                     <Logo src={waddlLogo}/>
                 </Link>
                 <Link style={floatRight} to="/share">
-                    <Button color="primary" size="sm">Share</Button>
+                    <Button color="success" size="sm">Share</Button>
                 </Link>
                 <Dropdown style={floatRight} group isOpen={this.state.dropdownOpen} size="sm" toggle={this.toggle}>
                     <DropdownToggle style={dropdownSecondary} caret>
@@ -68,7 +68,7 @@ export default class ReactNavbar extends React.Component {
 
 // Styled Components
 const SiteBar = styled.div `
-  padding: 10px 20px;
+  padding: 15px 20px;
   background: #fff;
   border-bottom: 1px solid rgba(51,51,51, .05);
   box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 0px 0px;
@@ -80,7 +80,7 @@ const SiteBar = styled.div `
 `;
 
  const Logo = styled.img`
-   width: 120px;
+   width: 90px;
    height: auto;
  `;
 
