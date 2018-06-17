@@ -181,18 +181,17 @@ const IndexPage = () => (
                         </div>
                     </Col>
                 </Row>
-                <Row style={heroBlock}>
-                    <Col sm="12" md={{ size: 8, offset: 2 }}>
-                        <div style={centerBlock}>
-                            <h2><strong>Tired of endless SEARCHING?</strong></h2>
-                            <p>Same! Sooo why not get weekly endurance events that match your budget, athleticism and...ambition personally sent to you. No sweat!</p>
-                            <br/>
-                            <Link className='btn btn-primary btn-lg'>
-                                Get Weekly Endurance Suggestions!
-                            </Link>
-                        </div>
-                    </Col>
-                </Row>
+                <SearchBlock>
+                    <div>
+                        <h2><strong>Tired of endless SEARCHING?</strong></h2>
+                        <p>Same! Sooo why not get weekly endurance events that match your budget, athleticism and...ambition
+                            personally sent to you. No sweat!</p>
+                        <br/>
+                        <Link className='btn btn-primary btn-lg'>
+                            Get Weekly Endurance Suggestions!
+                        </Link>
+                    </div>
+                </SearchBlock>
             </Container>
         </Template>
     )
@@ -286,6 +285,21 @@ background: none;
     cursor: pointer;
     border-bottom: 2px solid rgb(51,51,51);
 }
+`;
+
+const SearchBlock = styled.div`
+    text-align: center;
+    margin: 0 auto;
+    background-image: url('https://res.cloudinary.com/waddl/image/upload/v1529250557/dots.svg');
+    background-size: 'cover';
+    background-position: 'center';
+    padding: 120px 0;
+    
+    div {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    }
 `;
 
 // Inline Styles
